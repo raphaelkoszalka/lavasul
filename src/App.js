@@ -16,21 +16,21 @@ class App extends Component {
     return (
         <section>
           <HeaderComponent />
-            <BrowserRouter>
-              <Switch>
-                {/* @todo: loop through RouteArray from Routes */}
-                <Route path="/" exact={true} component={HomePage} />
-                <Route path="/home" exact={true} component={HomePage} />
-                <Route path="/lavasul" exact={true} component={CompanyPage} />
-                <Route path="/clientes" exact={true} component={ClientsPage} />
-                <Route path="/galeria" exact={true} component={GalleryPage} />
-                <Route path="/contato" exact={true} component={ContactPage} />
-              </Switch>
-            </BrowserRouter>
+          <BrowserRouter>
+            <Switch>
+              {/* @todo: loop through RouteArray from Routes */}
+              <Route path="/" exact={true} component={HomePage} />
+              <Route path="/home" exact={true} component={HomePage} />
+              <Route path="/lavasul" exact={true} component={CompanyPage} />
+              <Route path="/clientes" exact={true} component={ClientsPage} />
+              <Route path="/galeria" exact={true} component={GalleryPage} />
+              <Route path="/contato" exact={true} component={ContactPage} />
+            </Switch>
+          </BrowserRouter>
           <FooterComponent />
         </section>
-  );
+    );
   }
-  }
+}
 
-  export default App;
+export default App;
