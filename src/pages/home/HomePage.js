@@ -1,19 +1,37 @@
+import './HomePage.css';
 import React, { Component } from 'react';
-import GalleryComponent from "../../components/gallery/GalleryComponent";
+import HttpRequest from "../../services/HttpService";
+import {AppConstants} from "../../AppConstants";
+import LoaderComponent from "../../components/loader/LoaderComponent";
 
 class HomePage extends Component {
+
+  request = new HttpRequest();
+
   constructor() {
     super();
+    this.state = HomePage.defaultState();
   }
-  render() {
-    return (
-        <section>
-          <GalleryComponent />
-          <h2>home-page</h2>
-        </section>
 
-    )
+  static defaultState() {
+    return { isLoading: true }
   }
+
+  componentWillMount() {
+    this.request.get(AppConstants.ENDPOINT_GALLERY).then( (res) => {
+      this.setState({ isLoading: false });
+    });
+  }
+
+  render() {
+    const { isLoading } = this.state;
+
+    if (isLoading) {
+      return (<LoaderComponent />);
+    }
+    return (<h1>content</h1>)
+  }
+
 }
 
 export default HomePage;

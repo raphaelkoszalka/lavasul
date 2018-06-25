@@ -1,18 +1,22 @@
-  import superagent from 'superagent';
+import superagent from 'superagent';
 
-  class HttpRequest {
+class HttpRequest {
 
-    // just a simple GET for now, will be a POST later on;
-
-    get(url) {
-      return superagent
-      .get(url)
-      .withCredentials()
-      .set('Accept', 'application/json');
-    }
-
-
-
+  get(url) {
+    return superagent
+    .get(url)
+    .withCredentials()
+    .set('Accept', 'application/json');
   }
 
-  export default HttpRequest;
+  post(url, payload) {
+    return superagent
+    .post(url)
+    .send(payload)
+    .withCredentials()
+    .set('Accept', 'application/json');
+  }
+
+}
+
+export default HttpRequest;

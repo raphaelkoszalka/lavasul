@@ -2,6 +2,7 @@ import './GalleryComponent.css';
 import React, { Component } from 'react';
 import HttpRequest from "../../services/HttpService";
 import {AppConstants} from "../../AppConstants";
+import LoaderComponent from "../loader/LoaderComponent";
 
 class GalleryComponent extends Component {
 
@@ -13,22 +14,22 @@ class GalleryComponent extends Component {
   }
 
   static defaultState() {
-    return { isLoading: true, gallery: [] }
+    return { isLoading: true }
   }
 
   componentWillMount() {
     this.request.get(AppConstants.ENDPOINT_GALLERY).then( (res) => {
-      this.setState({ isLoading: false, gallery: JSON.parse(res.text) });
+      this.setState({ isLoading: false });
     });
   }
 
   render() {
-    const { isLoading, gallery } = this.state;
+    const { isLoading } = this.state;
 
     if (isLoading) {
-      return (<h1>loading</h1>);
+      return (<LoaderComponent />);
     }
-    return (<h1>loaded</h1>)
+    return (<h1>content</h1>)
   }
 
 }
