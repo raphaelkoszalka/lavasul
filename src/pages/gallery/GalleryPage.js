@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 class GalleryPage extends Component {
-  constructor() {
-    super();
-  }
+  // constructor() {
+  //   super();
+  // }
   render() {
     return (
         <h2>gallery-page</h2>

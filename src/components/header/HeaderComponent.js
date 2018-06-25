@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
 class HeaderComponent extends Component {
-  constructor() {
-    super();
-  }
+
+  // constructor() {
+  //   super();
+  // }
+
   render() {
     return (
         <h1>header</h1>

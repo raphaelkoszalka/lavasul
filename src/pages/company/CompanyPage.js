@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 class CompanyPage extends Component {
-  constructor() {
-    super();
-  }
+  // constructor() {
+  //   super();
+  // }
   render() {
     return (
         <h2>company-page</h2>

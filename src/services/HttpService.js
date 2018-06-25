@@ -1,21 +1,18 @@
-import superagent from 'react-superagent';
+  import superagent from 'superagent';
 
-class HttpRequest {
+  class HttpRequest {
 
-  constructor() {
-  }
+    // just a simple GET for now, will be a POST later on;
 
-  get(url) {
-    return superagent
-    .get(url)
-    .query(null)
-    .set('Accept', 'application/json')
-    .end ((error, response)=>{
-      console.log(response);
-    })
+    get(url) {
+      return superagent
+      .get(url)
+      .withCredentials()
+      .set('Accept', 'application/json');
+    }
+
 
 
   }
-}
 
-export default HttpRequest;
+  export default HttpRequest;
