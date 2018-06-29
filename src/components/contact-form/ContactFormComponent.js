@@ -10,7 +10,7 @@ class ContactFormComponent extends Component {
 
   constructor() {
     super();
-    this.state = ContactFormComponent.defaultState();
+    this.state = {} // ContactFormComponent.defaultState();
   }
 
   static defaultState() {
@@ -18,9 +18,6 @@ class ContactFormComponent extends Component {
   }
 
   componentWillMount() {
-    this.request.get(AppConstants.ENDPOINT_GALLERY).then( (res) => {
-      this.setState({ isLoading: false });
-    });
   }
 
   render() {

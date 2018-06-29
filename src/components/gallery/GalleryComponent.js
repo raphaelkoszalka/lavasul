@@ -10,7 +10,7 @@ class GalleryComponent extends Component {
 
   constructor() {
     super();
-    this.state = GalleryComponent.defaultState();
+    this.state = {}; //GalleryComponent.defaultState();
   }
 
   static defaultState() {
@@ -18,9 +18,6 @@ class GalleryComponent extends Component {
   }
 
   componentWillMount() {
-    this.request.get(AppConstants.ENDPOINT_GALLERY).then( (res) => {
-      this.setState({ isLoading: false });
-    });
   }
 
   render() {

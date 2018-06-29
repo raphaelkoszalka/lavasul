@@ -9,7 +9,14 @@ class LoaderComponent extends Component {
 
   render() {
     return (
-        <h1>header</h1>
+        <div id="lds-wrapper">
+          <div className="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
     )
   }
 }

@@ -10,7 +10,7 @@ class ClientsPage extends Component {
 
   constructor() {
     super();
-    this.state = ClientsPage.defaultState();
+    this.state = {}; // ClientsPage.defaultState();
   }
 
   static defaultState() {
@@ -18,9 +18,6 @@ class ClientsPage extends Component {
   }
 
   componentWillMount() {
-    this.request.get(AppConstants.ENDPOINT_GALLERY).then( (res) => {
-      this.setState({ isLoading: false });
-    });
   }
 
   render() {

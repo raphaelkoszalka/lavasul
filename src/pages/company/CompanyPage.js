@@ -10,7 +10,7 @@ class CompanyPage extends Component {
 
   constructor() {
     super();
-    this.state = CompanyPage.defaultState();
+    this.state = {}; // CompanyPage.defaultState();
   }
 
   static defaultState() {
@@ -18,9 +18,6 @@ class CompanyPage extends Component {
   }
 
   componentWillMount() {
-    this.request.get(AppConstants.ENDPOINT_GALLERY).then( (res) => {
-      this.setState({ isLoading: false });
-    });
   }
 
   render() {

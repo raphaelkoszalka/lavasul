@@ -10,7 +10,7 @@ class FooterComponent extends Component {
 
   constructor() {
     super();
-    this.state = FooterComponent.defaultState();
+    this.state = {}; // FooterComponent.defaultState();
   }
 
   static defaultState() {
@@ -18,9 +18,7 @@ class FooterComponent extends Component {
   }
 
   componentWillMount() {
-    this.request.get(AppConstants.ENDPOINT_GALLERY).then( (res) => {
-      this.setState({ isLoading: false });
-    });
+    this.setState({ isLoading: false });
   }
 
   render() {
