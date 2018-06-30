@@ -1,10 +1,7 @@
 import './SliderComponent.css';
 import React, { Component } from 'react';
-import HttpRequest from "../../services/HttpService";
 
 class SliderComponent extends Component {
-
-  request = new HttpRequest();
 
   constructor(props) {
     super(props);

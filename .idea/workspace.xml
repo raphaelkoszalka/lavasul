@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c746a9a-fb83-445a-81cc-9143683374bc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/slider/SliderComponent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/slider/SliderComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-form/ContactFormComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-form/ContactFormComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/FooterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/FooterComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/gallery/GalleryComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gallery/GalleryComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderComponent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/loader/LoaderComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loader/LoaderComponent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/loader/LoaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loader/LoaderComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/clients/ClientsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/clients/ClientsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/company/CompanyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/company/CompanyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/SliderComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/SliderComponent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/SliderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/SliderComponent.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,20 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SliderComponent.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/slider/SliderComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="34" column="76" lean-forward="true" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+            <state relative-caret-position="440">
+              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,26 +31,8 @@
       <file leaf-file-name="SliderComponent.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/slider/SliderComponent.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeaderComponent.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/header/HeaderComponent.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/animate.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76450">
-              <caret line="3475" column="1" selection-start-line="3475" selection-start-column="1" selection-end-line="3475" selection-end-column="1" />
+            <state relative-caret-position="460">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -114,10 +78,10 @@
         <option value="$PROJECT_DIR$/src/AppConstants.js" />
         <option value="$PROJECT_DIR$/src/pages/home/HomePage.js" />
         <option value="$PROJECT_DIR$/src/pages/home/HomePage.css" />
-        <option value="$PROJECT_DIR$/src/components/slider/SliderComponent.css" />
         <option value="$PROJECT_DIR$/src/components/header/HeaderComponent.css" />
         <option value="$PROJECT_DIR$/public/css/animate.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/slider/SliderComponent.css" />
         <option value="$PROJECT_DIR$/src/components/slider/SliderComponent.js" />
       </list>
     </option>
@@ -130,6 +94,11 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="47" />
@@ -144,6 +113,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,17 +125,6 @@
             <path>
               <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
               <item name="lavasul" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lavasul" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lavasul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -172,13 +132,6 @@
               <item name="lavasul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lavasul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
@@ -191,16 +144,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/byond/byond-go-fe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -284,14 +236,16 @@
       <workItem from="1530221146931" duration="1581000" />
       <workItem from="1530224704279" duration="855000" />
       <workItem from="1530266920765" duration="875000" />
+      <workItem from="1530285329644" duration="497000" />
+      <workItem from="1530319715158" duration="434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76909000" />
+    <option name="totallyTimeSpent" value="77840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="-11" width="1875" height="1092" extended-state="6" />
+    <frame x="49" y="27" width="1871" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -304,11 +258,12 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22980063" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.123931624" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.15982485" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.12560128" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Learn" order="7" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -318,23 +273,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24958949" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24958949" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19157088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -346,7 +301,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -359,13 +314,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/slider/SliderComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -687,36 +635,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76450">
+        <state>
           <caret line="3475" column="1" selection-start-line="3475" selection-start-column="1" selection-end-line="3475" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/HeaderComponent.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state>
           <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/meta.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="22">
           <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/slider/SliderComponent.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="460">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/slider/SliderComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="34" column="76" lean-forward="true" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+        <state relative-caret-position="440">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
