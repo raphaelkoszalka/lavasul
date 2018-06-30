@@ -19,12 +19,13 @@ class SliderComponent extends Component {
 
   initiateSlideRotation() {
     setInterval( () => {
-      if (this.props.slides[this.props.slides.length + 1]) {
+      if( this.state.active === this.props.slides[0]) {
         this.setState( { active: this.props.slides[this.props.slides.length + 1] });
         return;
       }
+      console.log('ho');
       this.setState( { active: this.props.slides[0] });
-    }, 1000);
+    }, 500);
   }
 
   render() {
@@ -41,12 +42,12 @@ class SliderComponent extends Component {
             </ul>
           </div>
           <div className="clearfix"></div>
-          <div id="next">
-            <h1><i className="fas fa-caret-right"></i></h1>
-          </div>
-          <div id="prev">
-            <h1><i className="fas fa-caret-left"></i></h1>
-          </div>
+          {/*<div id="next">*/}
+            {/*<h1><i className="fas fa-caret-right"></i></h1>*/}
+          {/*</div>*/}
+          {/*<div id="prev">*/}
+            {/*<h1><i className="fas fa-caret-left"></i></h1>*/}
+          {/*</div>*/}
         </section>
     )
   }
