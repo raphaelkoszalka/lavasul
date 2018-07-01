@@ -3,10 +3,6 @@ import React, { Component } from 'react';
 
 class LoaderComponent extends Component {
 
-  constructor() {
-    super();
-  }
-
   render() {
     return (
         <div id="lds-wrapper">
