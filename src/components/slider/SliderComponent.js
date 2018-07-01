@@ -10,29 +10,38 @@ class SliderComponent extends Component {
   }
 
   static defaultState() {
-    return { slides: [], active: {} }
+    return { slides: [], active: {}, listStyle: {} }
   }
 
   componentWillMount() {
-    this.setState( { active: this.props['slides'][1], slides: this.props['slides'] } );
+    this.setState( { active: this.props.slides[0] } );
   }
 
-  initiateSlideRotation() {
+  componentDidMount() {
+    this.initiateSlideRotation(this.props);
+  }
+
+  initiateSlideRotation(props) {
+    let position = 0;
     setInterval( () => {
-      if( this.state.active === this.props.slides[0]) {
-        this.setState( { active: this.props.slides[this.props.slides.length + 1] });
+      position++;
+      if (props.slides[position]) {
+        this.setState( { active: props.slides[position] });
         return;
       }
-      console.log('ho');
-      this.setState( { active: this.props.slides[0] });
-    }, 500);
+      position = 0;
+      this.setState( { active: props.slides[position] });
+    }, 10000);
+
   }
 
   render() {
     const { active } = this.state;
-    const listStyle = { background: 'url(' + active['cover']['url'] + ')' };
+    const listStyle = {
 
-    this.initiateSlideRotation();
+    };
+
+    console.log(listStyle);
 
     return (
         <section>
@@ -43,10 +52,10 @@ class SliderComponent extends Component {
           </div>
           <div className="clearfix"></div>
           {/*<div id="next">*/}
-            {/*<h1><i className="fas fa-caret-right"></i></h1>*/}
+          {/*<h1><i className="fas fa-caret-right"></i></h1>*/}
           {/*</div>*/}
           {/*<div id="prev">*/}
-            {/*<h1><i className="fas fa-caret-left"></i></h1>*/}
+          {/*<h1><i className="fas fa-caret-left"></i></h1>*/}
           {/*</div>*/}
         </section>
     )

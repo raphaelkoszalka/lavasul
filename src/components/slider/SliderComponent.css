@@ -14,9 +14,6 @@ li {
   top: 0;
   left: 0;
   z-index: 10;
-  -webkit-background-size: cover;
-  background-size: cover !important;
-  background-position: bottom center !important;
 }
 #next {
   width: 40px;

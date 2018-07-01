@@ -26,13 +26,9 @@ class HomePage extends Component {
 
   render() {
     const { isLoading, content } = this.state;
-
     if (isLoading) {
       return (<LoaderComponent />);
     }
-
-    console.log(content.slides);
-
     return (<SliderComponent slides={ content.slides } />)
   }
 
