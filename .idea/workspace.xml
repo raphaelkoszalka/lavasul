@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7c746a9a-fb83-445a-81cc-9143683374bc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/FooterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/FooterComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderComponent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider/SliderComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/SliderComponent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider/SliderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/SliderComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/clients/ClientesPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work-with-us/WorkWithUsPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/clients/ClientsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/work-with-us/WorkWithUsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/gallery/GalleryPage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/gallery/GalleryPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/HomePage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +18,29 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="110">
+              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/home/HomePage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkWithUsPage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WorkWithUsPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/work-with-us/WorkWithUsPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="154">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -90,7 +89,6 @@
         <option value="$PROJECT_DIR$/src/pages/company/CompanyPage.js" />
         <option value="$PROJECT_DIR$/src/pages/clients/ClientsPage.js" />
         <option value="$PROJECT_DIR$/src/components/loader/LoaderComponent.js" />
-        <option value="$PROJECT_DIR$/src/pages/home/HomePage.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/footer/FooterComponent.js" />
         <option value="$PROJECT_DIR$/src/components/slider/SliderComponent.js" />
@@ -99,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/components/header/HeaderComponent.js" />
         <option value="$PROJECT_DIR$/src/components/header/HeaderComponent.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/pages/home/HomePage.js" />
       </list>
     </option>
   </component>
@@ -151,6 +150,12 @@
               <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
               <item name="lavasul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lavasul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -158,7 +163,7 @@
               <item name="lavasul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="work-with-us" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,12 +266,12 @@
       <workItem from="1530319715158" duration="849000" />
       <workItem from="1530353221674" duration="4710000" />
       <workItem from="1530397101097" duration="5505000" />
-      <workItem from="1530441294896" duration="14653000" />
+      <workItem from="1530441294896" duration="15631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103123000" />
+    <option name="totallyTimeSpent" value="104101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="27" width="1871" height="1053" extended-state="6" />
@@ -282,7 +287,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.17086528" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17086528" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.1539726" />
@@ -611,16 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/HomePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/footer/FooterComponent.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -682,22 +677,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/work-with-us/WorkWithUsPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="154">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/work-with-us/WorkWithUsPage.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="110">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/HomePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
