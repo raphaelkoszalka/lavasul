@@ -1,16 +1,13 @@
-import './GalleryPage.css';
+import './WorkWithUsPage.css';
 import React, { Component } from 'react';
-import HttpRequest from "../../services/HttpService";
-import {AppConstants} from "../../AppConstants";
 import LoaderComponent from "../../components/loader/LoaderComponent";
 
-class GalleryPage extends Component {
+class WorkWithUsPage extends Component {
 
-  request = new HttpRequest();
 
   constructor() {
     super();
-    this.state = GalleryPage.defaultState();
+    this.state = {}; // WorkWithUsPage.defaultState();
   }
 
   static defaultState() {
@@ -18,9 +15,6 @@ class GalleryPage extends Component {
   }
 
   componentWillMount() {
-    this.request.get(AppConstants.ENDPOINT_GALLERY).then( (res) => {
-      this.setState({ isLoading: false });
-    });
   }
 
   render() {
@@ -34,4 +28,4 @@ class GalleryPage extends Component {
 
 }
 
-export default GalleryPage;
+export default WorkWithUsPage;

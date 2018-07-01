@@ -29,19 +29,45 @@ class SliderComponent extends Component {
   }
 
   componentDidMount() {
-    this.slideRotation = setInterval(() => {
-      const { active } = this.state;
-      const { slides } = this.props;
-      if (slides[active + 1]) {
-        this.setState({ active: active + 1 });
-        return;
-      }
-      this.setState({ active: 0 });
-    }, 10000);
+    this.automaticRotateSlide();
   }
 
   componentWillUnmount() {
     clearInterval(this.slideRotation);
+  }
+
+  automaticRotateSlide() {
+    this.slideRotation = setInterval(() => this.rotateSlideToNext(), 10000);
+  }
+
+  // @todo: fix method (resulting in stack overflow)
+  // manuallyRotateSlide(toNext) {
+  //   clearInterval(this.slideRotation);
+  //   const { active } = this.state;
+  //   const { slides } = this.props;
+  //   // cheaper to check boolean then string
+  //   if (toNext) {
+  //     if (slides[active + 1]) {
+  //       this.setState({ active: active + 1 });
+  //       return;
+  //     }
+  //     return;
+  //   }
+  //   if (active >= 0) {
+  //     this.setState({ active: active -1 });
+  //     return;
+  //   }
+  //   this.setState({ active: 0  });
+  // }
+
+  rotateSlideToNext() {
+    const { active } = this.state;
+    const { slides } = this.props;
+    if (slides[active + 1]) {
+      this.setState({ active: active + 1 });
+      return;
+    }
+    this.setState({ active: 0 });
   }
 
   render() {
@@ -55,22 +81,12 @@ class SliderComponent extends Component {
       };
       return SliderComponent.listItemReturn(slide, active, style);
     });
-    const caretStyle = {
-      color: '#FFF',
-      fontSize: '4em'
-    };
+    const sectionStyle = { marginBottom: '750px !important' };
 
     return (
-        <section>
+        <section style={sectionStyle}>
           <div className="slides">
             <ul>{listItems}</ul>
-          </div>
-          <div className="clearfix"></div>
-          <div id="next">
-            <h1 style={caretStyle}><i className="fas fa-caret-right"></i></h1>
-          </div>
-          <div id="prev">
-            <h1 style={caretStyle}><i className="fas fa-caret-left"></i></h1>
           </div>
         </section>
     )

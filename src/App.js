@@ -7,8 +7,7 @@ import HomePage from "./pages/home/HomePage";
 import CompanyPage from "./pages/company/CompanyPage";
 import HeaderComponent from "./components/header/HeaderComponent";
 import FooterComponent from "./components/footer/FooterComponent";
-import ClientsPage from "./pages/clients/ClientsPage";
-import GalleryPage from "./pages/gallery/GalleryPage";
+import WorkWithUsPage from "./pages/work-with-us/WorkWithUsPage";
 import ContactPage from "./pages/contact/ContactPage";
 
 class App extends Component {
@@ -22,8 +21,7 @@ class App extends Component {
               <Route path="/" exact={true} component={HomePage} />
               <Route path="/home" exact={true} component={HomePage} />
               <Route path="/lavasul" exact={true} component={CompanyPage} />
-              <Route path="/clientes" exact={true} component={ClientsPage} />
-              <Route path="/galeria" exact={true} component={GalleryPage} />
+              <Route path="/trabalhe-conosco" exact={true} component={WorkWithUsPage} />
               <Route path="/contato" exact={true} component={ContactPage} />
             </Switch>
           </BrowserRouter>

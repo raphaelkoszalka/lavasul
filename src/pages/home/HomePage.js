@@ -29,7 +29,11 @@ class HomePage extends Component {
     if (isLoading) {
       return (<LoaderComponent />);
     }
-    return (<SliderComponent slides={ content.slides } />)
+    return (
+        <section>
+          <SliderComponent slides={ content['slides'] } />
+        </section>
+    )
   }
 
 }

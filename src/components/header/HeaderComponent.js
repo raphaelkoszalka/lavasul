@@ -2,7 +2,6 @@ import './HeaderComponent.css';
 import React, { Component } from 'react';
 
 class HeaderComponent extends Component {
-
   render() {
     return (
         <div id="menu">
@@ -12,14 +11,20 @@ class HeaderComponent extends Component {
                 <div className="col-md-3">
                   <img src="./brand/logo_giga.png" id="brand-image" alt=""/>
                 </div>
-                <div className="col-md-9"></div>
+                <div className="col-md-9">
+                  <ul id="headerDesktopMenu">
+                    <li>Contato</li>
+                    <li>Trabalhe Conosco</li>
+                    <li>A Lava Sul</li>
+                    <li>Home</li>
+                  </ul>
+                </div>
               </div>
             </nav>
           </div>
         </div>
     )
   }
-
 }
 
 export default HeaderComponent;

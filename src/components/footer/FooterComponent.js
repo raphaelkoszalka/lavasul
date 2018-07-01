@@ -24,7 +24,7 @@ class FooterComponent extends Component {
     if (isLoading) {
       return (<LoaderComponent />);
     }
-    return (<h1>content</h1>)
+    return (<footer></footer>)
   }
 
 }
