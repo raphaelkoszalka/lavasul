@@ -6,49 +6,46 @@ class SliderComponent extends Component {
   constructor(props) {
     super(props);
     this.props = props;
-    this.state = SliderComponent.defaultState();
+    let position = 0;
+    this.props['slides'].forEach((slide) => {
+      slide.position = position;
+      position++;
+    });
+    this.state = this.defaultState();
   }
 
-  static defaultState() {
-    return { slides: [], active: {}, listStyle: {} }
+  defaultState() {
+    return { active: SliderComponent.getIntegerBetweenArrayLength(0, this.props['slides'].length - 1) }
   }
 
-  componentWillMount() {
-    this.setState( { active: this.props.slides[0] } );
+  static listItemReturn(slide, active, style) {
+    return active === slide.position ? <li className="fadeIn" id={ 'slide_' + slide.position } key={ slide.id } style={ style }></li> : null;
+  }
+
+  static getIntegerBetweenArrayLength(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
   componentDidMount() {
-    this.initiateSlideRotation(this.props);
-  }
-
-  initiateSlideRotation(props) {
-    let position = 0;
-    setInterval( () => {
-      position++;
-      if (props.slides[position]) {
-        this.setState( { active: props.slides[position] });
-        return;
-      }
-      position = 0;
-      this.setState( { active: props.slides[position] });
-    }, 10000);
 
   }
 
   render() {
+    const { slides } = this.props;
     const { active } = this.state;
-    const listStyle = {
 
-    };
-
-    console.log(listStyle);
-
+    const listItems = slides.map( (slide) => {
+      const style = {
+        background: 'url(' + slide['cover']['url'] + ')',
+        backgroundSize: 'cover !important',
+        backgroundPosition: 'center center'
+      };
+      return SliderComponent.listItemReturn(slide, active, style);
+    });
     return (
         <section>
           <div className="slides">
-            <ul>
-              <li className="fadeInRightBig" key={active['ID']} style={listStyle}></li>
-            </ul>
+            <ul>{listItems}</ul>
           </div>
           <div className="clearfix"></div>
           {/*<div id="next">*/}

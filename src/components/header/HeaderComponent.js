@@ -1,8 +1,5 @@
 import './HeaderComponent.css';
 import React, { Component } from 'react';
-import HttpRequest from "../../services/HttpService";
-import {AppConstants} from "../../AppConstants";
-import LoaderComponent from "../loader/LoaderComponent";
 
 class HeaderComponent extends Component {
 
