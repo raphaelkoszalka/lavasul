@@ -34,7 +34,6 @@ class HomePage extends Component {
         <section>
           <SliderComponent slides={ content['slides'] } />
           <div style={paddingStyle}></div>
-
         </section>
     )
   }
