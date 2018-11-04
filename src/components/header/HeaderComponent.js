@@ -2,29 +2,27 @@ import './HeaderComponent.css';
 import React, { Component } from 'react';
 
 class HeaderComponent extends Component {
-  render() {
-    return (
-        <div id="menu">
-          <div className="col-md-10 col-md-offset-1">
+    render() {
+        return (
             <nav>
-              <div className="row">
-                <div className="col-md-3">
-                  <img src="./brand/logo_giga.png" id="brand-image" alt=""/>
-                </div>
                 <div className="col-md-9">
-                  <ul id="headerDesktopMenu">
-                    <li>Contato</li>
-                    <li>Trabalhe Conosco</li>
-                    <li>A Lava Sul</li>
-                    <li>Home</li>
-                  </ul>
+                    <img src="./brand/logo_giga.png" id="brand-image" alt=""/>
+                    <ul id="headerDesktopMenu">
+                        <li>Contato</li>
+                        <li>Trabalhe Conosco</li>
+                        <li>Serviços</li>
+                        <li>Parceiros</li>
+                        <li>Blog</li>
+                        <li>A Lava Sul</li>
+                        <li>Home</li>
+                    </ul>
                 </div>
-              </div>
+                <div className="col-md-3 social-icons">
+                    <img className="social-icon" src="./icons/facebook.svg" alt=""/>
+                </div>
             </nav>
-          </div>
-        </div>
-    )
-  }
+        )
+    }
 }
 
 export default HeaderComponent;

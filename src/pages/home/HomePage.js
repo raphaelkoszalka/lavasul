@@ -26,14 +26,12 @@ class HomePage extends Component {
 
   render() {
     const { isLoading, content } = this.state;
-    const paddingStyle = { paddingTop: '800px', clear: 'both' };
     if (isLoading) {
       return (<LoaderComponent />);
     }
     return (
         <section>
           <SliderComponent slides={ content['slides'] } />
-          <div style={paddingStyle}></div>
         </section>
     )
   }
