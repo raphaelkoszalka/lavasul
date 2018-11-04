@@ -9,6 +9,9 @@ import HeaderComponent from "./components/header/HeaderComponent";
 import FooterComponent from "./components/footer/FooterComponent";
 import WorkWithUsPage from "./pages/work-with-us/WorkWithUsPage";
 import ContactPage from "./pages/contact/ContactPage";
+import BlogPage from "./pages/blog/BlogPage";
+import ServicesPage from "./pages/services/ServicesPage";
+import PartnersPage from "./pages/partners/PartnersPage";
 
 class App extends Component {
   render() {
@@ -21,6 +24,9 @@ class App extends Component {
               <Route path="/" exact={true} component={HomePage} />
               <Route path="/home" exact={true} component={HomePage} />
               <Route path="/lavasul" exact={true} component={CompanyPage} />
+              <Route path="/blog" exact={true} component={BlogPage} />
+              <Route path="/servicos" exact={true} component={ServicesPage} />
+              <Route path="/parceiros" exact={true} component={PartnersPage} />
               <Route path="/trabalhe-conosco" exact={true} component={WorkWithUsPage} />
               <Route path="/contato" exact={true} component={ContactPage} />
             </Switch>

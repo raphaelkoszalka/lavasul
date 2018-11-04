@@ -9,12 +9,25 @@
     background-repeat: repeat-x;
     z-index: 10;
 }
+#navWrapper {
+    width: 100%;
+}
 nav {
     padding-top: 15px;
     background-color: #2A363B;
     height: 80px;
     border-bottom: 2px solid #212b2f;
+    z-index: 30000 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
 }
+/*#brand {*/
+    /*width: 117px;*/
+    /*height: 52px;*/
+    /*background-image: url('../../../public/brand/logo_giga.png')*/
+/*}*/
 #brand-image {
     height: 52px;
     margin-top: -60px;

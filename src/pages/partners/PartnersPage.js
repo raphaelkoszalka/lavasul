@@ -1,9 +1,12 @@
 import './PartnersPage.css';
 import React, { Component } from 'react';
 import LoaderComponent from "../../components/loader/LoaderComponent";
+import {AppConstants} from "../../AppConstants";
+import HttpRequest from "../../services/HttpService";
 
 class PartnersPage extends Component {
 
+    request = new HttpRequest();
 
     constructor() {
         super();
@@ -15,6 +18,10 @@ class PartnersPage extends Component {
     }
 
     componentWillMount() {
+        this.request.get(AppConstants.ENDPOINT_PARTNER).then( (res) => {
+            this.setState({ isLoading: false, content: JSON.parse(res['text']) });
+            console.log(this.state);
+        });
     }
 
     render() {

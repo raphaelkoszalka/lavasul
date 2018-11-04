@@ -1,9 +1,12 @@
 import './BlogPage.css';
 import React, { Component } from 'react';
 import LoaderComponent from "../../components/loader/LoaderComponent";
+import HttpRequest from "../../services/HttpService";
+import {AppConstants} from "../../AppConstants";
 
 class BlogPage extends Component {
 
+    request = new HttpRequest();
 
     constructor() {
         super();
@@ -15,6 +18,10 @@ class BlogPage extends Component {
     }
 
     componentWillMount() {
+        this.request.get(AppConstants.ENDPOINT_BLOG).then( (res) => {
+            this.setState({ isLoading: false, content: JSON.parse(res['text']) });
+            console.log(this.state);
+        });
     }
 
     render() {
