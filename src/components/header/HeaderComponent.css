@@ -14,9 +14,9 @@
 }
 nav {
     padding-top: 15px;
-    background-color: #2A363B;
+    background-color: #FFF;
     height: 80px;
-    border-bottom: 2px solid #212b2f;
+    border-bottom: 1px solid #EFEFEF;
     z-index: 30000 !important;
     position: absolute;
     top: 0;
@@ -45,12 +45,12 @@ nav {
 #headerDesktopMenu li {
     display: inline-block;
     float: right;
-    color: #FFF;
+    color: #343434;
     text-align: center;
     text-transform: uppercase;
     padding: 15px;
     font-family: 'Encode Sans Condensed', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
 }
 #headerDesktopMenu li:hover {
     cursor: pointer;
@@ -80,7 +80,7 @@ nav {
     position: absolute;
     top: 80px;
     left: 0;
-    background: rgba(3,3,3,0.8);
+    background: radial-gradient(rgba(42,54,59,0.2), rgba(42,54,59,0.6));
     z-index: 7000;
     display: none;
 }
@@ -99,7 +99,6 @@ nav {
     font-size: 2em;
     font-family: 'Encode Sans Condensed', sans-serif;
     padding-top: 5px;
-    border-bottom: 1px solid rgba(255,255,255, 0.1);
 }
 #mobileMenu li:hover {
  font-weight: 600;

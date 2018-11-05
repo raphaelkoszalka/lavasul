@@ -8,7 +8,6 @@ class HeaderComponent extends Component {
         mobileMenu.classList.toggle('mobileMenuVisible');
     }
 
-
     render() {
         return (
             <div id="navWrapper">
@@ -16,7 +15,7 @@ class HeaderComponent extends Component {
                     <div className="col-md-9 col-sm-9 col-xs-9">
                         <a href="/home" id="brand-anchor">
                             {/*<div id="brand"></div>*/}
-                            <img src="./brand/logo_giga.png" id="brand-image" alt=""/>
+                            <img src="./brand/lavasul_blue.png" id="brand-image" alt=""/>
                         </a>
                         <ul id="headerDesktopMenu" className="hidden-xs hidden-sm hidden-md">
                             <a href="/contato"><li>Contato</li></a>

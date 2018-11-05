@@ -29,7 +29,7 @@ class SliderComponent extends Component {
     }
 
     componentDidMount() {
-        // this.automaticRotateSlide();
+        this.automaticRotateSlide();
     }
 
     componentWillUnmount() {
@@ -87,6 +87,9 @@ class SliderComponent extends Component {
                 <div id="slideOverlay" />
                 <div className="slides">
                     <ul>{listItems}</ul>
+                </div>
+                <div id="bigLogo">
+                    <img src="./brand/lavasul_blue.png" alt=""/>
                 </div>
             </section>
         )
