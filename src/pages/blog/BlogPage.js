@@ -10,7 +10,7 @@ class BlogPage extends Component {
 
     constructor() {
         super();
-        this.state = {}; // CompanyPage.defaultState();
+        this.state = {};
     }
 
     static defaultState() {
@@ -30,6 +30,7 @@ class BlogPage extends Component {
         if (isLoading) {
             return (<LoaderComponent />);
         }
+
         return (<h1>content</h1>)
     }
 

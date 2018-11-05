@@ -13,13 +13,15 @@ class HeaderComponent extends Component {
                         </a>
                         <ul id="headerDesktopMenu">
                             <a href="/contato"><li>Contato</li></a>
-                            {/*<a href="/trabalhe-conosco"><li>Trabalhe Conosco</li></a>*/}
+                            <a href="/trabalhe-conosco"><li>Trabalhe Conosco</li></a>
                             <a href="/servicos"><li>Serviços</li></a>
                             <a href="/parceiros"><li>Parceiros</li></a>
                             <a href="/blog"> <li>Blog</li></a>
                             <a href="/lavasul"><li>A Lava Sul</li></a>
                             <a href="/home"><li>Home</li></a>
                         </ul>
+                        <div id="headerMobileMenu">
+                        </div>
                     </div>
                     <div className="col-md-3 social-icons">
                         <img className="social-icon" src="./icons/facebook.svg" alt=""/>
