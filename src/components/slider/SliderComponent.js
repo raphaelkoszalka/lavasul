@@ -16,10 +16,6 @@ class SliderComponent extends Component {
         this.state = this.defaultState();
     }
 
-    defaultState() {
-        return { active: SliderComponent.getIntegerBetweenArrayLength(0, this.props['slides'].length - 1) }
-    }
-
     static listItemReturn(slide, active, style) {
         return active === slide.position ? <li className="homeCover" id={ 'slide_' + slide.position } key={ slide.id } style={ style }></li> : null;
     }
@@ -40,6 +36,9 @@ class SliderComponent extends Component {
         this.slideRotation = setInterval(() => this.rotateSlideToNext(), 10000);
     }
 
+    defaultState() {
+        return { active: SliderComponent.getIntegerBetweenArrayLength(0, this.props['slides'].length - 1) }
+    }
 
     rotateSlideToNext() {
         const { active } = this.state;
@@ -61,10 +60,9 @@ class SliderComponent extends Component {
             };
             return SliderComponent.listItemReturn(slide, active, style);
         });
-        const sectionStyle = { marginBottom: '750px !important' };
 
         return (
-            <section style={sectionStyle}>
+            <section>
                 <div id="slideOverlay" />
                 <div className="slides">
                     <ul>{listItems}</ul>
@@ -75,6 +73,7 @@ class SliderComponent extends Component {
             </section>
         )
     }
+
 }
 
 export default SliderComponent;
