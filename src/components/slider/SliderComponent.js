@@ -40,25 +40,6 @@ class SliderComponent extends Component {
         this.slideRotation = setInterval(() => this.rotateSlideToNext(), 10000);
     }
 
-    // @todo: fix method (resulting in stack overflow)
-    // manuallyRotateSlide(toNext) {
-    //   clearInterval(this.slideRotation);
-    //   const { active } = this.state;
-    //   const { slides } = this.props;
-    //   // cheaper to check boolean then string
-    //   if (toNext) {
-    //     if (slides[active + 1]) {
-    //       this.setState({ active: active + 1 });
-    //       return;
-    //     }
-    //     return;
-    //   }
-    //   if (active >= 0) {
-    //     this.setState({ active: active -1 });
-    //     return;
-    //   }
-    //   this.setState({ active: 0  });
-    // }
 
     rotateSlideToNext() {
         const { active } = this.state;

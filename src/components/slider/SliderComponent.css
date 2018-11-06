@@ -58,6 +58,7 @@
 }
 #bigLogo img {
     max-width: 50%;
+    opacity: 0.6;
 }
 @keyframes fadeInOpacity {
     0% {
