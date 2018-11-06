@@ -12,7 +12,7 @@
     background-size: cover !important;
 }
 #slideOverlay {
-    background: radial-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.7));
+    background: radial-gradient(rgba(239,239,239,0.6), rgba(239,239,239,0.9));
     /* background: radial-gradient(rgba(255,255,255,0.2), rgba(42,54,59,1)); */
     width: 100%;
     height: calc(100% - 80px);
@@ -26,6 +26,11 @@
     height: 100%;
     left: 0;
     z-index: 10;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
 }
 #next {
     width: 40px;
@@ -53,4 +58,12 @@
 }
 #bigLogo img {
     max-width: 50%;
+}
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
