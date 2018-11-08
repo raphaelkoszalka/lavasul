@@ -31,12 +31,10 @@ class HomePage extends Component {
         }
         return (
             <div>
-                <section>
-                    <SliderComponent slides={ content['slides'] } />
+                <SliderComponent slides={ content['slides'] } />
+                <section id="companyHomeSection">
+                    <h1>title</h1>
                 </section>
-                <section id="companyHomeSection"></section>
-                <section id="dasda"></section>
-                <section id="sdasdas"></section>
             </div>
         )
     }
