@@ -9,4 +9,10 @@ body {
 section {
     padding-top: 90px;
 }
-
+.sectionTitle {
+    font-size: 3.5em;
+    font-weight: 500;
+    font-family: 'Anton', sans-serif;
+    color: #8EDBFA;
+    text-shadow: 1px 1px 1px rgba(2,2,2,.4);
+}

@@ -10,7 +10,7 @@ class CompanyPage extends Component {
 
     constructor() {
         super();
-        this.state = {}; // CompanyPage.defaultState();
+        this.state = {};
     }
 
     static defaultState() {
@@ -25,12 +25,22 @@ class CompanyPage extends Component {
     }
 
     render() {
-        const { isLoading } = this.state;
+        const { isLoading, content } = this.state;
+
+        console.log(typeof content);
 
         if (isLoading) {
             return (<LoaderComponent />);
         }
-        return (<h1>content</h1>)
+        return (
+                <div className="col-xs-10 col-xs-offset-1">
+                    <div className="panel">
+                        <div className="panel-body">
+                            <h1 className="sectionTitle text-center">A Lava Sul</h1>
+                        </div>
+                    </div>
+                </div>
+        )
     }
 
 }

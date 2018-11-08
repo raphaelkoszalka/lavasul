@@ -3,14 +3,14 @@
 }
 nav {
     padding-top: 15px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,1)),to(rgba(255,255,255,0.9)));
+    /*background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,1)),to(rgba(255,255,255,0.9)));*/
     height: 80px;
     z-index: 30000 !important;
     position: absolute;
     top: 0;
     left: 0;
     width: inherit;
-    border-bottom: 1px solid #adadad;
+    /*border-bottom: 1px solid #adadad;*/
 }
 /*#brand {*/
     /*width: 117px;*/
@@ -21,15 +21,13 @@ nav {
     height: 52px;
 }
 @media (min-width: 1280px) {
-    #brand-image {
-        margin-top: -60px;
-    }
     .mobileMenuOverlay {
         display: none !important;
     }
 }
 #headerDesktopMenu {
     display: inline-block;
+    float: right;
 }
 #headerDesktopMenu li {
     display: inline-block;
@@ -45,9 +43,6 @@ nav {
     cursor: pointer;
     font-weight: bolder;
     color: #222;
-}
-.social-icons {
-    padding-top: 10px;
 }
 .social-icons img {
     display: inline-block;
@@ -98,4 +93,8 @@ nav {
 }
 #mobileMenu a:hover {
     text-decoration: none;
+}
+#contactButton {
+    background: #3444A4;
+    color: #FFF !important;
 }
