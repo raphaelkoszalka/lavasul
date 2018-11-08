@@ -1,6 +1,8 @@
 #companyHomeSection {
     clear: both;
     height: 100%;
+    width: 100%;
     position: absolute;
     top: 100%;
+    padding-top: 25px;
 }

@@ -1,7 +1,7 @@
 import './HomePage.css';
 import React, { Component } from 'react';
 import HttpRequest from "../../services/HttpService";
-import {AppConstants} from "../../AppConstants";
+import { AppConstants } from "../../AppConstants";
 import LoaderComponent from "../../components/loader/LoaderComponent";
 import SliderComponent from "../../components/slider/SliderComponent";
 
@@ -33,7 +33,16 @@ class HomePage extends Component {
             <div>
                 <SliderComponent slides={ content['slides'] } />
                 <section id="companyHomeSection">
-                    <h1>title</h1>
+                    <div className="col-xs-12 col-sm-10 col-sm-offset-1">
+                        <div className="panel">
+                            <div className="panel-body">
+                                <p className="text-center">
+                                    <img id="widthCompanyTitle" src="./brand/lavasul_blue.png" alt=""/>
+                                </p>
+                                <h1></h1>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
         )

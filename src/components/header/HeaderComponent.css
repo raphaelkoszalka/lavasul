@@ -100,3 +100,6 @@ nav {
     background: #3444A4;
     color: #FFF !important;
 }
+#widthCompanyTitle {
+    max-width: 200px;
+}
