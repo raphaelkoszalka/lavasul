@@ -38,11 +38,13 @@ nav {
     padding: 15px;
     font-family: 'Encode Sans Condensed', sans-serif;
     font-weight: 700;
+    margin-right: 5px;
 }
 #headerDesktopMenu li:hover {
     cursor: pointer;
     font-weight: bolder;
-    color: #222;
+    background: #3444A4;
+    color: #FFF !important;
 }
 .social-icons img {
     display: inline-block;

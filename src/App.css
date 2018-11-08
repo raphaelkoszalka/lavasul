@@ -8,6 +8,7 @@ body {
 }
 section {
     padding-top: 90px;
+    height: 100%;
 }
 .sectionTitle {
     font-size: 3.5em;

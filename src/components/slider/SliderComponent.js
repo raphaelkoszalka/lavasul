@@ -1,9 +1,11 @@
 import './SliderComponent.css';
 import React, { Component } from 'react';
+import Scroller from "../../services/ScrollerService";
 
 class SliderComponent extends Component {
 
     slideRotation;
+    scroller = new Scroller();
 
     constructor(props) {
         super(props);
@@ -14,6 +16,7 @@ class SliderComponent extends Component {
             position++;
         });
         this.state = this.defaultState();
+        this.navigateToNextSection = this.navigateToNextSection.bind(this);
     }
 
     static listItemReturn(slide, active, style) {
@@ -38,6 +41,11 @@ class SliderComponent extends Component {
 
     defaultState() {
         return { active: SliderComponent.getIntegerBetweenArrayLength(0, this.props['slides'].length - 1) }
+    }
+
+    navigateToNextSection() {
+        const companySection = document.getElementById('companyHomeSection');
+        this.scroller.scrollToResolver(companySection);
     }
 
     rotateSlideToNext() {
@@ -70,6 +78,7 @@ class SliderComponent extends Component {
                 <div id="bigLogo">
                     <img src="./brand/lavasul_blue.png" alt=""/>
                 </div>
+                <img onClick={this.navigateToNextSection} src="./icons/circle-down.svg" id="arrowDown" />
             </section>
         )
     }
