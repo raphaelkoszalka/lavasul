@@ -1,0 +1,16 @@
+#backToTop {
+    padding: 10px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #3444A4;
+    z-index: 75000;
+    opacity: 0.6;
+}
+#backToTop:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+#backToTop img {
+    width: 16px;
+}

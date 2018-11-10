@@ -6,7 +6,7 @@ class Scroller {
         document.documentElement.scrollTop += jump + 2.5;
         if (!elem.lastjump || elem.lastjump > Math.abs(jump)) {
             elem.lastjump = Math.abs(jump);
-            setTimeout(() => this.scrollToResolver(elem), 75);
+            setTimeout(() => this.scrollToResolver(elem), 45);
         } else {
             elem.lastjump = null;
         }

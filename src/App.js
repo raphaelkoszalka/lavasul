@@ -12,29 +12,31 @@ import ContactPage from "./pages/contact/ContactPage";
 import BlogPage from "./pages/blog/BlogPage";
 import ServicesPage from "./pages/services/ServicesPage";
 import PartnersPage from "./pages/partners/PartnersPage";
+import BackToTopComponent from "./components/back-to-top/BackToTopComponent";
 
 class App extends Component {
-  render() {
-    return (
-        <section>
-          <HeaderComponent />
-          <BrowserRouter>
-            <Switch>
-              {/* @todo: loop through RouteArray from Routes */}
-              <Route path="/" exact={true} component={HomePage} />
-              <Route path="/home" exact={true} component={HomePage} />
-              <Route path="/lavasul" exact={true} component={CompanyPage} />
-              <Route path="/blog" exact={true} component={BlogPage} />
-              <Route path="/servicos" exact={true} component={ServicesPage} />
-              <Route path="/parceiros" exact={true} component={PartnersPage} />
-              <Route path="/trabalhe-conosco" exact={true} component={WorkWithUsPage} />
-              <Route path="/contato" exact={true} component={ContactPage} />
-            </Switch>
-          </BrowserRouter>
-          <FooterComponent />
-        </section>
-    );
-  }
+    render() {
+        return (
+            <section>
+                <HeaderComponent />
+                <BrowserRouter>
+                    <Switch>
+                        {/* @todo: loop through RouteArray from Routes */}
+                        <Route path="/" exact={true} component={HomePage} />
+                        <Route path="/home" exact={true} component={HomePage} />
+                        <Route path="/lavasul" exact={true} component={CompanyPage} />
+                        <Route path="/blog" exact={true} component={BlogPage} />
+                        <Route path="/servicos" exact={true} component={ServicesPage} />
+                        <Route path="/parceiros" exact={true} component={PartnersPage} />
+                        <Route path="/trabalhe-conosco" exact={true} component={WorkWithUsPage} />
+                        <Route path="/contato" exact={true} component={ContactPage} />
+                    </Switch>
+                </BrowserRouter>
+                <FooterComponent />
+                <BackToTopComponent />
+            </section>
+        );
+    }
 }
 
 export default App;

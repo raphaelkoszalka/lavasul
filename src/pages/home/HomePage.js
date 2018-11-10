@@ -39,7 +39,7 @@ class HomePage extends Component {
                                 <p className="text-center">
                                     <img id="widthCompanyTitle" src="./brand/lavasul_blue.png" alt=""/>
                                 </p>
-                                <h1></h1>
+                                <hr />
                             </div>
                         </div>
                     </div>
