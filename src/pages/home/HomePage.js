@@ -4,14 +4,18 @@ import HttpRequest from "../../services/HttpService";
 import { AppConstants } from "../../AppConstants";
 import LoaderComponent from "../../components/loader/LoaderComponent";
 import SliderComponent from "../../components/slider/SliderComponent";
+import InstitutionalMovieComponent from "../../components/institutional-movie/InstitutionalMovieComponent";
+import Scroller from "../../services/ScrollerService";
 
 class HomePage extends Component {
 
     request = new HttpRequest();
+    scroller = new Scroller();
 
     constructor() {
         super();
         this.state = HomePage.defaultState();
+        this.navigateToNextSection = this.navigateToNextSection.bind(this);
     }
 
     static defaultState() {
@@ -21,14 +25,23 @@ class HomePage extends Component {
     componentWillMount() {
         this.request.get(AppConstants.ENDPOINT_HOME).then( (res) => {
             this.setState({ isLoading: false, content: JSON.parse(res['text']) });
+            console.log(this.state);
         });
+    }
+
+    navigateToNextSection() {
+        this.scroller.scrollToResolver(document.getElementById('institutionalVideo'));
     }
 
     render() {
         const { isLoading, content } = this.state;
+
         if (isLoading) {
             return (<LoaderComponent />);
         }
+
+        const company = content['company'][0];
+
         return (
             <div>
                 <SliderComponent slides={ content['slides'] } />
@@ -40,9 +53,26 @@ class HomePage extends Component {
                                     <img id="widthCompanyTitle" src="./brand/lavasul_blue.png" alt=""/>
                                 </p>
                                 <hr />
+                                <div className="row">
+                                    <div className="col-md-6 text-justify">
+                                        {company['description']}
+                                        <hr />
+                                        <button className="btn btn-block btn-info"> Saiba Mais</button>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <hr/>
+                                        <div className="clearfix" />
+                                        <img onClick={this.navigateToNextSection} src="./icons/circle-down.svg" className="arrowDown" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </section>
+                <section id="institutionalVideo">
+                    <InstitutionalMovieComponent />
                 </section>
             </div>
         )

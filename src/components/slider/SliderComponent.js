@@ -78,7 +78,7 @@ class SliderComponent extends Component {
                 <div id="bigLogo">
                     <img src="./brand/lavasul_blue.png" alt=""/>
                 </div>
-                <img onClick={this.navigateToNextSection} src="./icons/circle-down.svg" id="arrowDown" />
+                <img onClick={this.navigateToNextSection} src="./icons/circle-down.svg" className="arrowDown" />
             </section>
         )
     }
