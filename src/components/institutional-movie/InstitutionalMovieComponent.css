@@ -41,7 +41,7 @@
 }
 @media (min-aspect-ratio: 21/9) {
     .video-foreground {
-        height: 150%;
+        height: 100%;
         z-index: -2;
     }
 }

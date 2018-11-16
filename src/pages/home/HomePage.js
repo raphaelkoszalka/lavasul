@@ -40,7 +40,6 @@ class HomePage extends Component {
             return (<LoaderComponent />);
         }
 
-        const company = content['company'][0];
 
         return (
             <div>
@@ -55,16 +54,9 @@ class HomePage extends Component {
                                 <hr />
                                 <div className="row">
                                     <div className="col-md-6 text-justify">
-                                        {company['description']}
+                                        {content['company']['description_home']}
                                         <hr />
                                         <button className="btn btn-block btn-info"> Saiba Mais</button>
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-md-12">
-                                        <hr/>
-                                        <div className="clearfix" />
-                                        <img onClick={this.navigateToNextSection} src="./icons/circle-down.svg" className="arrowDown" />
                                     </div>
                                 </div>
                             </div>
