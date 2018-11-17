@@ -122,8 +122,8 @@ class HomePage extends Component {
                         </div>
                     </div>
                 </section>
-                <img onClick={this.navigateToCompanySection} src="./icons/circle-down.svg" className="arrowCompany" />
                 <img onClick={this.navigateToMovieSection} src="./icons/circle-down.svg" className="arrowMovie" />
+                <img onClick={this.navigateToCompanySection} src="./icons/circle-down.svg" className="arrowCompany" />
                 <img onClick={this.navigateToServicesSection} src="./icons/circle-down.svg" className="arrowServices" />
                 <img onClick={this.navigateToPositiveAmbientPoint} src="./icons/circle-down.svg" className="arrowPositive" />
             </div>
