@@ -113,15 +113,6 @@ class HomePage extends Component {
                         </div>
                     </div>
                 </section>
-                <section id="recentBlog">
-                    <div className="col-xs-12 col-sm-10 col-sm-offset-1">
-                        <div className="panel">
-                            <div className="panel-body">
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 <img onClick={this.navigateToMovieSection} src="./icons/circle-down.svg" className="arrowMovie" />
                 <img onClick={this.navigateToCompanySection} src="./icons/circle-down.svg" className="arrowCompany" />
                 <img onClick={this.navigateToServicesSection} src="./icons/circle-down.svg" className="arrowServices" />

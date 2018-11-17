@@ -80,7 +80,7 @@
           <entry key="css" value="2442" />
           <entry key="dummy" value="8" />
           <entry key="html" value="54" />
-          <entry key="js" value="3366" />
+          <entry key="js" value="3385" />
           <entry key="json" value="36" />
           <entry key="svg" value="67" />
         </counts>
@@ -90,7 +90,7 @@
           <entry key="CSS" value="2442" />
           <entry key="HTML" value="54" />
           <entry key="JSON" value="36" />
-          <entry key="JavaScript" value="3366" />
+          <entry key="JavaScript" value="3385" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="SVG" value="67" />
         </counts>
@@ -139,8 +139,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/home/HomePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
+            <state relative-caret-position="228">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -352,7 +352,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542452383955" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542452617104" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -455,12 +455,12 @@
       <workItem from="1542365420045" duration="9926000" />
       <workItem from="1542390209995" duration="330000" />
       <workItem from="1542390758667" duration="3327000" />
-      <workItem from="1542447883534" duration="4498000" />
+      <workItem from="1542447883534" duration="4731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210314000" />
+    <option name="totallyTimeSpent" value="210547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,7 +493,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.1816694" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924242" visible="true" weight="0.19249593" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924242" visible="true" weight="0.34094617" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007576" side_tool="true" weight="0.17781404" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24980484" />
@@ -822,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/HomePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
+        <state relative-caret-position="228">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
