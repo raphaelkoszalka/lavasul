@@ -41,19 +41,19 @@ class HomePage extends Component {
     }
 
     navigateToMovieSection() {
-        this.scroller.scrollToResolver(document.getElementById('companyHomeSection'));
+        this.scroller.scrollToResolver(document.getElementById('institutionalVideo'));
     }
 
     navigateToServicesSection() {
-        this.scroller.scrollToResolver(document.getElementById('companyHomeSection'));
+        this.scroller.scrollToResolver(document.getElementById('services'));
     }
 
     navigateToPositiveAmbientPoint() {
-        this.scroller.scrollToResolver(document.getElementById('companyHomeSection'));
+        this.scroller.scrollToResolver(document.getElementById('positiveAmbientPoint'));
     }
 
     navigateToRecentBlog() {
-        this.scroller.scrollToResolver(document.getElementById('companyHomeSection'));
+        this.scroller.scrollToResolver(document.getElementById('recentBlog'));
     }
 
     render() {
