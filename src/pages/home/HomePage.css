@@ -7,10 +7,122 @@
     padding-top: 25px;
 }
 #institutionalVideo {
-    clear: both;
     height: 100%;
+    background-color: #c5ecfc !important;
+    border-bottom: 1px solid #efefef;
+    clear: both;
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 200%;
     padding-top: 25px;
+}
+#services {
+    height: 100%;
+    background-color: #d4f1fd;
+    border-bottom: 1px solid #efefef;
+    clear: both;
+    width: 100%;
+    position: relative;
+    top: 300%;
+    padding-top: 25px;
+}
+#positiveAmbientPoint {
+    height: 100%;
+    background-color: #e2f5fd;
+    border-bottom: 1px solid #efefef;
+    clear: both;
+    width: 100%;
+    position: relative;
+    top: 400%;
+    padding-top: 25px;
+}
+#recentBlog {
+    height: 100%;
+    background-color: #f0fafe;
+    border-bottom: 1px solid #efefef;
+    clear: both;
+    width: 100%;
+    position: relative;
+    top: 500%;
+    padding-top: 25px;
+}
+.arrowCompany {
+    position: absolute;
+    bottom: 45px;
+    z-index: 900000;
+    height: 70px;
+    left: 50%;
+    margin-left: -35px;
+    animation: blinker 2s linear infinite;
+}
+.arrowCompany:hover {
+    cursor: pointer !important;
+    -webkit-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+.arrowCompany {
+    position: absolute;
+    bottom: 45px;
+    z-index: 900000;
+    height: 70px;
+    left: 50%;
+    margin-left: -35px;
+    animation: blinker 2s linear infinite;
+}
+.arrowCompany:hover {
+    cursor: pointer !important;
+    -webkit-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+.arrowMovie {
+    position: absolute;
+    bottom: 45px;
+    z-index: 900000;
+    height: 70px;
+    left: 50%;
+    margin-left: -35px;
+    animation: blinker 2s linear infinite;
+}
+.arrowMovie:hover {
+    cursor: pointer !important;
+    -webkit-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+.arrowServices {
+    position: absolute;
+    bottom: 45px;
+    z-index: 900000;
+    height: 70px;
+    left: 50%;
+    margin-left: -35px;
+    animation: blinker 2s linear infinite;
+}
+.arrowServices:hover {
+    cursor: pointer !important;
+    -webkit-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+.arrowPositive {
+    position: absolute;
+    bottom: 45px;
+    z-index: 900000;
+    height: 70px;
+    left: 50%;
+    margin-left: -35px;
+    animation: blinker 2s linear infinite;
+}
+.arrowPositive:hover {
+    cursor: pointer !important;
+    -webkit-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0.2;
+    }
 }

@@ -15,7 +15,14 @@ class HomePage extends Component {
     constructor() {
         super();
         this.state = HomePage.defaultState();
-        this.navigateToNextSection = this.navigateToNextSection.bind(this);
+        // TOTALLY NOT PROUD OF THIS
+        // SHOULD BE ONE FUNCTION BUT REACT IS CALLING ON RUN TIME
+        // WHEN ELEMENTS DOESN'T EXIST YET
+        this.navigateToCompanySection = this.navigateToCompanySection.bind(this);
+        this.navigateToMovieSection = this.navigateToMovieSection.bind(this);
+        this.navigateToServicesSection = this.navigateToServicesSection.bind(this);
+        this.navigateToPositiveAmbientPoint = this.navigateToPositiveAmbientPoint.bind(this);
+        this.navigateToRecentBlog = this.navigateToRecentBlog.bind(this);
     }
 
     static defaultState() {
@@ -29,8 +36,24 @@ class HomePage extends Component {
         });
     }
 
-    navigateToNextSection() {
-        this.scroller.scrollToResolver(document.getElementById('institutionalVideo'));
+    navigateToCompanySection() {
+        this.scroller.scrollToResolver(document.getElementById('companyHomeSection'));
+    }
+
+    navigateToMovieSection() {
+        this.scroller.scrollToResolver(document.getElementById('companyHomeSection'));
+    }
+
+    navigateToServicesSection() {
+        this.scroller.scrollToResolver(document.getElementById('companyHomeSection'));
+    }
+
+    navigateToPositiveAmbientPoint() {
+        this.scroller.scrollToResolver(document.getElementById('companyHomeSection'));
+    }
+
+    navigateToRecentBlog() {
+        this.scroller.scrollToResolver(document.getElementById('companyHomeSection'));
     }
 
     render() {
@@ -64,8 +87,45 @@ class HomePage extends Component {
                     </div>
                 </section>
                 <section id="institutionalVideo">
-                    <InstitutionalMovieComponent />
+                    <div className="col-xs-12 col-sm-10 col-sm-offset-1">
+                        <div className="panel">
+                            <div className="panel-body">
+
+                            </div>
+                        </div>
+                    </div>
                 </section>
+                <section id="services">
+                    <div className="col-xs-12 col-sm-10 col-sm-offset-1">
+                        <div className="panel">
+                            <div className="panel-body">
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="positiveAmbientPoint">
+                    <div className="col-xs-12 col-sm-10 col-sm-offset-1">
+                        <div className="panel">
+                            <div className="panel-body">
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="recentBlog">
+                    <div className="col-xs-12 col-sm-10 col-sm-offset-1">
+                        <div className="panel">
+                            <div className="panel-body">
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <img onClick={this.navigateToCompanySection} src="./icons/circle-down.svg" className="arrowCompany" />
+                <img onClick={this.navigateToMovieSection} src="./icons/circle-down.svg" className="arrowMovie" />
+                <img onClick={this.navigateToServicesSection} src="./icons/circle-down.svg" className="arrowServices" />
+                <img onClick={this.navigateToPositiveAmbientPoint} src="./icons/circle-down.svg" className="arrowPositive" />
             </div>
         )
     }
