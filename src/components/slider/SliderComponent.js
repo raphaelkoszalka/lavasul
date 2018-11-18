@@ -64,7 +64,7 @@ class SliderComponent extends Component {
         });
 
         return (
-            <section>
+            <section id="sliderSection">
                 <div id="slideOverlay" />
                 <div className="slides">
                     <ul>{listItems}</ul>

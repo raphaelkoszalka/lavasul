@@ -36,25 +36,30 @@ class HomePage extends Component {
         });
     }
 
+    // should be just one function, fix this
     navigateToCompanySection() {
         this.scroller.scrollToResolver(document.getElementById('companyHomeSection'));
     }
-
+    // should be just one function, fix this
     navigateToMovieSection() {
         this.scroller.scrollToResolver(document.getElementById('institutionalVideo'));
     }
-
+    // should be just one function, fix this
     navigateToServicesSection() {
         this.scroller.scrollToResolver(document.getElementById('services'));
     }
-
+    // should be just one function, fix this
     navigateToPositiveAmbientPoint() {
         this.scroller.scrollToResolver(document.getElementById('positiveAmbientPoint'));
     }
-
+    // should be just one function, fix this
     navigateToRecentBlog() {
         this.scroller.scrollToResolver(document.getElementById('recentBlog'));
     }
+
+    createMarkup() {
+        return {__html: this.state['content']['company']['description_home']};
+    };
 
     render() {
         const { isLoading, content } = this.state;
@@ -63,7 +68,6 @@ class HomePage extends Component {
             return (<LoaderComponent />);
         }
 
-
         return (
             <div>
                 <SliderComponent slides={ content['slides'] } />
@@ -71,15 +75,17 @@ class HomePage extends Component {
                     <div className="col-xs-12 col-sm-10 col-sm-offset-1">
                         <div className="panel">
                             <div className="panel-body">
-                                <p className="text-center">
-                                    <img id="widthCompanyTitle" src="./brand/lavasul_blue.png" alt=""/>
-                                </p>
-                                <hr />
+
                                 <div className="row">
                                     <div className="col-md-6 text-justify">
-                                        {content['company']['description_home']}
+                                        <span dangerouslySetInnerHTML={this.createMarkup()}></span>{}
                                         <hr />
                                         <button className="btn btn-block btn-info"> Saiba Mais</button>
+                                    </div>
+                                    <div className="col-md-6 hidden-xs">
+                                        <p className="text-center">
+                                            <img id="widthCompanyTitle" src="./brand/lavasul_blue.png" alt=""/>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -87,10 +93,10 @@ class HomePage extends Component {
                     </div>
                 </section>
                 <section id="institutionalVideo">
-                    <div className="col-xs-12 col-sm-10 col-sm-offset-1">
+                    <div className="col-xs-12 col-sm-8 col-sm-offset-2">
                         <div className="panel">
                             <div className="panel-body">
-
+                                <InstitutionalMovieComponent />
                             </div>
                         </div>
                     </div>

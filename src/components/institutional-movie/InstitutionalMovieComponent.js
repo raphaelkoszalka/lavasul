@@ -6,13 +6,11 @@ class InstitutionalMovieComponent extends Component {
 
     render() {
         return (
-            <div className="video-background" id="mainSlider">
-                <div className="video-foreground" id="aspectRatio">
-                    <iframe id="videoFrame"
-                            src="https://www.youtube.com/embed/QmYGPXrSDlY?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=QmYGPXrSDlY&mute=1"
-                            frameBorder="0" allowFullScreen />
-
-                </div>
+            <div className="video-container" id="mainSlider">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0fWPhRDnb6U"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen></iframe>
             </div>
         )
     }
