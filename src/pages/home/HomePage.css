@@ -115,3 +115,13 @@
         opacity: 0.2;
     }
 }
+#homePage section {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.panel-movie {
+    max-width: 750px;
+    margin: 0 auto;
+}

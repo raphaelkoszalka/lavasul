@@ -69,18 +69,25 @@ class HomePage extends Component {
         }
 
         return (
-            <div>
+            <div id="homePage">
                 <SliderComponent slides={ content['slides'] } />
                 <section id="companyHomeSection">
                     <div className="col-xs-12 col-sm-10 col-sm-offset-1">
                         <div className="panel">
                             <div className="panel-body">
-
                                 <div className="row">
+                                    <div className="col-md-12">
+                                        <h2 className="text-center sectionTitle">
+                                            A Lava Sul
+                                        </h2>
+                                        <hr/>
+                                    </div>
                                     <div className="col-md-6 text-justify">
-                                        <span dangerouslySetInnerHTML={this.createMarkup()}></span>{}
+                                        <span dangerouslySetInnerHTML={this.createMarkup()} />
                                         <hr />
-                                        <button className="btn btn-block btn-info"> Saiba Mais</button>
+                                        <a href="/lavasul">
+                                            <button className="btn btn-block btn-info"> Saiba Mais</button>
+                                        </a>
                                     </div>
                                     <div className="col-md-6 hidden-xs">
                                         <p className="text-center">
@@ -93,9 +100,11 @@ class HomePage extends Component {
                     </div>
                 </section>
                 <section id="institutionalVideo">
-                    <div className="col-xs-12 col-sm-8 col-sm-offset-2">
-                        <div className="panel">
+                    <div className="col-xs-12 col-sm-10 col-sm-offset-1">
+                        <div className="panel panel-movie">
                             <div className="panel-body">
+                                <h2 className="text-center sectionTitle">Vídeo Institucional</h2>
+                                <hr/>
                                 <InstitutionalMovieComponent />
                             </div>
                         </div>
