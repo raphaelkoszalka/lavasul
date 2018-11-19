@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c746a9a-fb83-445a-81cc-9143683374bc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/service-block/ServiceBlockComponent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/service-block/ServiceBlockComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/company/CompanyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/company/CompanyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/HomePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/service-block/ServiceBlockComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/service-block/ServiceBlockComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ScrollerService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ScrollerService.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +82,7 @@
           <entry key="css" value="2643" />
           <entry key="dummy" value="8" />
           <entry key="html" value="54" />
-          <entry key="js" value="3890" />
+          <entry key="js" value="4539" />
           <entry key="json" value="36" />
           <entry key="svg" value="67" />
         </counts>
@@ -98,7 +92,7 @@
           <entry key="CSS" value="2643" />
           <entry key="HTML" value="54" />
           <entry key="JSON" value="36" />
-          <entry key="JavaScript" value="3890" />
+          <entry key="JavaScript" value="4539" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="SVG" value="67" />
         </counts>
@@ -113,7 +107,7 @@
           <entry key="HTML" value="4" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="64" />
+          <entry key="JavaScript" value="70" />
           <entry key="RNG Compact" value="2" />
           <entry key="SVG" value="12" />
           <entry key="TypeScript" value="1" />
@@ -124,7 +118,7 @@
           <entry key="css" value="55" />
           <entry key="html" value="4" />
           <entry key="ico" value="1" />
-          <entry key="js" value="64" />
+          <entry key="js" value="70" />
           <entry key="json" value="2" />
           <entry key="rnc" value="2" />
           <entry key="svg" value="12" />
@@ -136,10 +130,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/ScrollerService.js">
+        <entry file="file://$PROJECT_DIR$/src/components/slider/SliderComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="247">
+              <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -147,30 +141,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/service-block/ServiceBlockComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="173">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/contact-form/ContactFormComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="30" lean-forward="true" selection-end-line="33" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/service-block/ServiceBlockComponent.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -245,10 +219,10 @@
         <option value="$PROJECT_DIR$/src/components/slider/SliderComponent.js" />
         <option value="$PROJECT_DIR$/src/components/slider/SliderComponent.css" />
         <option value="$PROJECT_DIR$/src/pages/home/HomePage.css" />
-        <option value="$PROJECT_DIR$/src/pages/home/HomePage.js" />
         <option value="$PROJECT_DIR$/src/pages/company/CompanyPage.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/services/ScrollerService.js" />
+        <option value="$PROJECT_DIR$/src/pages/home/HomePage.js" />
         <option value="$PROJECT_DIR$/src/components/service-block/ServiceBlockComponent.js" />
       </list>
     </option>
@@ -359,7 +333,28 @@
               <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
               <item name="lavasul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="service-block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lavasul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="slider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lavasul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lavasul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
@@ -377,7 +372,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542650013001" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542651975534" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -481,12 +476,12 @@
       <workItem from="1542390209995" duration="330000" />
       <workItem from="1542390758667" duration="3327000" />
       <workItem from="1542447883534" duration="14748000" />
-      <workItem from="1542622064288" duration="8441000" />
+      <workItem from="1542622064288" duration="10403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229037000" />
+    <option name="totallyTimeSpent" value="230999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,7 +502,7 @@
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24277908" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.21311475" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -764,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/slider/SliderComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="66" column="38" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/slider/SliderComponent.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -826,25 +814,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/HomePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/ScrollerService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/service-block/ServiceBlockComponent.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/contact-form/ContactFormComponent.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -856,13 +831,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/service-block/ServiceBlockComponent.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/HomePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="113" column="26" lean-forward="true" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/slider/SliderComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/service-block/ServiceBlockComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="173">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>

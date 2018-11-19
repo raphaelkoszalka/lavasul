@@ -6,6 +6,7 @@ import LoaderComponent from "../../components/loader/LoaderComponent";
 import SliderComponent from "../../components/slider/SliderComponent";
 import InstitutionalMovieComponent from "../../components/institutional-movie/InstitutionalMovieComponent";
 import Scroller from "../../services/ScrollerService";
+import ServiceBlockComponent from "../../components/service-block/ServiceBlockComponent";
 
 class HomePage extends Component {
 
@@ -32,7 +33,6 @@ class HomePage extends Component {
     componentWillMount() {
         this.request.get(AppConstants.ENDPOINT_HOME).then( (res) => {
             this.setState({ isLoading: false, content: JSON.parse(res['text']) });
-            console.log(this.state);
         });
     }
 
@@ -67,6 +67,8 @@ class HomePage extends Component {
         if (isLoading) {
             return (<LoaderComponent />);
         }
+
+        console.log(content);
 
         return (
             <div id="homePage">
@@ -114,7 +116,9 @@ class HomePage extends Component {
                     <div className="col-xs-12 col-sm-10 col-sm-offset-1">
                         <div className="panel">
                             <div className="panel-body">
-
+                                <h2 className="text-center sectionTitle">Serviços</h2>
+                                <hr/>
+                                <ServiceBlockComponent services={content['service']} />
                             </div>
                         </div>
                     </div>
