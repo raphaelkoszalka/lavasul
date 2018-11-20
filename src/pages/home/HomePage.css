@@ -19,7 +19,7 @@
 }
 #services {
     height: 100%;
-    background-color: #f2f2f2;
+    background: linear-gradient(90deg, #c2c6e3 50%, #F2f2f2 50%);
     /*background-color: #d4f1fd;*/
     border-bottom: 1px solid #efefef;
     clear: both;

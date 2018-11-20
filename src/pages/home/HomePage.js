@@ -68,8 +68,6 @@ class HomePage extends Component {
             return (<LoaderComponent />);
         }
 
-        console.log(content);
-
         return (
             <div id="homePage">
                 <SliderComponent slides={ content['slides'] } />
@@ -113,15 +111,7 @@ class HomePage extends Component {
                     </div>
                 </section>
                 <section id="services">
-                    <div className="col-xs-12 col-sm-10 col-sm-offset-1">
-                        <div className="panel">
-                            <div className="panel-body">
-                                <h2 className="text-center sectionTitle">Serviços</h2>
-                                <hr/>
-                                <ServiceBlockComponent services={content['service']} />
-                            </div>
-                        </div>
-                    </div>
+                    <ServiceBlockComponent services={content['service']} />
                 </section>
                 <section id="positiveAmbientPoint">
                     <div className="col-xs-12 col-sm-10 col-sm-offset-1">

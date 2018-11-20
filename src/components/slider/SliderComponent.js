@@ -55,6 +55,9 @@ class SliderComponent extends Component {
     render() {
         const { slides } = this.props;
         const { active } = this.state;
+
+        console.log(typeof slides);
+
         const listItems = slides.map( (slide) => {
             const style = {
                 backgroundImage: 'url(' + slide['cover']['url'] + ')',
