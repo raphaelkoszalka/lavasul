@@ -76,7 +76,7 @@ class HomePage extends Component {
                         <div className="panel">
                             <div className="panel-body">
                                 <div className="row">
-                                    <div className="col-md-12">
+                                    <div className="col-md-12">6
                                         <h2 className="text-center sectionTitle">
                                             A Lava Sul
                                         </h2>
@@ -84,14 +84,10 @@ class HomePage extends Component {
                                     </div>
                                     <div className="col-md-6 text-justify">
                                         <span dangerouslySetInnerHTML={this.createMarkup()} />
-                                        <hr />
-                                        <a href="/lavasul">
-                                            <button className="btn btn-block btn-info"> Saiba Mais</button>
-                                        </a>
                                     </div>
                                     <div className="col-md-6 hidden-xs">
                                         <p className="text-center">
-                                            <img id="widthCompanyTitle" src="./brand/lavasul_blue.png" alt=""/>
+                                            <img id="widthCompanyTitle" src="./lavasul-home.png" alt=""/>
                                         </p>
                                     </div>
                                 </div>
@@ -100,14 +96,8 @@ class HomePage extends Component {
                     </div>
                 </section>
                 <section id="institutionalVideo">
-                    <div className="col-xs-12 col-sm-10 col-sm-offset-1">
-                        <div className="panel panel-movie">
-                            <div className="panel-body">
-                                <h2 className="text-center sectionTitle">Vídeo Institucional</h2>
-                                <hr/>
-                                <InstitutionalMovieComponent />
-                            </div>
-                        </div>
+                    <div className="col-xs-12 col-sm-6 col-sm-offset-3">
+                        <InstitutionalMovieComponent />
                     </div>
                 </section>
                 <section id="services">
@@ -122,10 +112,10 @@ class HomePage extends Component {
                         </div>
                     </div>
                 </section>
-                <img onClick={this.navigateToMovieSection} src="./icons/circle-down.svg" className="arrowMovie" />
-                <img onClick={this.navigateToCompanySection} src="./icons/circle-down.svg" className="arrowCompany" />
-                <img onClick={this.navigateToServicesSection} src="./icons/circle-down.svg" className="arrowServices" />
-                <img onClick={this.navigateToPositiveAmbientPoint} src="./icons/circle-down.svg" className="arrowPositive" />
+                <img onClick={this.navigateToMovieSection} src="./icons/down.svg" className="arrowMovie" />
+                <img onClick={this.navigateToCompanySection} src="./icons/down.svg" className="arrowCompany" />
+                <img onClick={this.navigateToServicesSection} src="./icons/down.svg" className="arrowServices" />
+                <img onClick={this.navigateToPositiveAmbientPoint} src="./icons/down.svg" className="arrowPositive" />
             </div>
         )
     }

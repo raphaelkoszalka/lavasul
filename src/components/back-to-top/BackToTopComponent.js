@@ -13,7 +13,7 @@ class BackToTopComponent extends Component {
 
     navigateToTop() {
         const topOfTheWorld = document.getElementById('topOfTheWorld');
-        this.scroller.scrollToResolver(topOfTheWorld);
+        this.scroller.scrollToResolver(topOfTheWorld, true);
     }
 
     render() {
