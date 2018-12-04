@@ -71,38 +71,14 @@ class HomePage extends Component {
         return (
             <div id="homePage">
                 <SliderComponent slides={ content['slides'] } />
-                <section id="companyHomeSection">
-                    <div className="col-xs-12 col-sm-10 col-sm-offset-1">
-                        <div className="panel">
-                            <div className="panel-body">
-                                <div className="row">
-                                    <div className="col-md-12">6
-                                        <h2 className="text-center sectionTitle">
-                                            A Lava Sul
-                                        </h2>
-                                        <hr/>
-                                    </div>
-                                    <div className="col-md-6 text-justify">
-                                        <span dangerouslySetInnerHTML={this.createMarkup()} />
-                                    </div>
-                                    <div className="col-md-6 hidden-xs">
-                                        <p className="text-center">
-                                            <img id="widthCompanyTitle" src="./lavasul-home.png" alt=""/>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
+
                 <section id="institutionalVideo">
                     <div className="col-xs-12 col-sm-6 col-sm-offset-3">
                         <InstitutionalMovieComponent />
                     </div>
                 </section>
-                <section id="services">
-                    <ServiceBlockComponent services={content['service']} />
-                </section>
+
                 <section id="positiveAmbientPoint">
                     <div className="col-xs-12 col-sm-10 col-sm-offset-1">
                         <div className="panel">
@@ -112,10 +88,6 @@ class HomePage extends Component {
                         </div>
                     </div>
                 </section>
-                <img onClick={this.navigateToMovieSection} src="./icons/down.svg" className="arrowMovie" />
-                <img onClick={this.navigateToCompanySection} src="./icons/down.svg" className="arrowCompany" />
-                <img onClick={this.navigateToServicesSection} src="./icons/down.svg" className="arrowServices" />
-                <img onClick={this.navigateToPositiveAmbientPoint} src="./icons/down.svg" className="arrowPositive" />
             </div>
         )
     }
