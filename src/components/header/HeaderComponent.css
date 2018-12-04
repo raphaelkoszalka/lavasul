@@ -90,11 +90,11 @@
     top: 80px;
     left: 0;
     background: radial-gradient(rgba(42,54,59,0.2), rgba(42,54,59,0.6));
-    z-index: 7000 !important;
+    z-index: 7000;
     display: none;
 }
 .mobileMenuVisible {
-    display: block !important;
+    display: block;
 }
 #mobileMenu {
     padding-top: 52px;
