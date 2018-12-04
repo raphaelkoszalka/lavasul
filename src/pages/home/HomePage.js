@@ -95,6 +95,7 @@ class HomePage extends Component {
                         </div>
                     </div>
                 </section>
+
                 <section id="institutionalVideo">
                     <div className="col-xs-12 col-sm-6 col-sm-offset-3">
                         <InstitutionalMovieComponent />
@@ -110,10 +111,6 @@ class HomePage extends Component {
                         </div>
                     </div>
                 </section>
-                <img onClick={this.navigateToMovieSection} src="./icons/down.svg" className="arrowMovie" />
-                <img onClick={this.navigateToCompanySection} src="./icons/down.svg" className="arrowCompany" />
-                <img onClick={this.navigateToServicesSection} src="./icons/down.svg" className="arrowServices" />
-                <img onClick={this.navigateToPositiveAmbientPoint} src="./icons/down.svg" className="arrowPositive" />
             </div>
         )
     }

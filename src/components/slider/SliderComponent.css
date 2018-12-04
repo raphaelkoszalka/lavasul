@@ -1,13 +1,10 @@
-#sliderSection {
-    height: 100%;
-}
 .slides {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 500px;
-    z-index: -1;
+    z-index: 2;
     background-color: #d7d7d7;
 }
 .homeCover {
@@ -25,14 +22,6 @@
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 0.5s;
-}
-#bigLogo {
-    position: absolute;
-    z-index: 34000;
-    top: 50%;
-    left: 50%;
-    margin-left: -21%;
-    margin-top: -9%;
 }
 @keyframes fadeInOpacity {
     0% {
