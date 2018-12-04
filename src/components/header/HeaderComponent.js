@@ -3,23 +3,59 @@ import React, { Component } from 'react';
 
 class HeaderComponent extends Component {
 
+    constructor() {
+        super();
+        this.state = HeaderComponent.defaultState();
+        this.listenToScroll = this.listenToScroll.bind(this);
+    }
+
+    static defaultState() {
+        return {
+            brand: './brand/lavasul_white.png',
+            topMenuId: 'headerDesktopMenu',
+            navClass: 'topNav'
+        };
+    }
+
     static openMobileMenu() {
-        let mobileMenu = document.getElementById('mobileMenuOverlay');
+        const mobileMenu = document.getElementById('mobileMenuOverlay');
         mobileMenu.classList.toggle('mobileMenuVisible');
     }
 
+    listenToScroll() {
+        const top = document.getElementById('topOfTheWorld');
+        window.addEventListener('scroll', (e) => {
+            if (top.scrollTop > 200) {
+                this.setState({
+                    brand: './brand/lavasul_blue.png',
+                    topMenuId: 'afterScrollDesktopMenu',
+                    navClass: 'topNavAfterScroll'
+                });
+                return;
+            }
+            this.setState(HeaderComponent.defaultState);
+        });
+    }
+
+    componentDidMount() {
+        this.listenToScroll();
+    }
+
     render() {
+
+        const { topMenuId, brand, navClass } = this.state;
+
         return (
             <div id="navWrapper">
-                <nav>
+                <nav className={navClass} id="navMenu">
                     <div className="col-md-3 col-sm-3 col-xs-3">
                         <a href="/home" id="brand-anchor">
-                            <img src="./brand/lavasul_white.png" id="brand-image" alt=""/>
+                            <img src={brand} id="brand-image" alt=""/>
                         </a>
                     </div>
                     <div className="col-md-9 col-sm-9 col-xs-9 social-icons">
 
-                        <ul id="headerDesktopMenu" className="hidden-xs hidden-sm hidden-md">
+                        <ul id={topMenuId} className="desktopMenu hidden-xs hidden-sm hidden-md">
                             <a href="/contato"><li id="contactButton">Contato</li></a>
                             <a href="/trabalhe-conosco"><li>Trabalhe Conosco</li></a>
                             <a href="/servicos"><li>Serviços</li></a>

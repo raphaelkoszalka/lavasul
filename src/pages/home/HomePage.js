@@ -100,9 +100,7 @@ class HomePage extends Component {
                         <InstitutionalMovieComponent />
                     </div>
                 </section>
-                <section id="services">
-                    <ServiceBlockComponent services={content['service']} />
-                </section>
+
                 <section id="positiveAmbientPoint">
                     <div className="col-xs-12 col-sm-10 col-sm-offset-1">
                         <div className="panel">
