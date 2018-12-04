@@ -72,9 +72,6 @@ class SliderComponent extends Component {
                 <div className="slides">
                     <ul>{listItems}</ul>
                 </div>
-                <div id="bigLogo">
-                    <img src="./brand/lavasul_blue.png" alt=""/>
-                </div>
             </section>
         )
     }

@@ -14,8 +14,7 @@ class HeaderComponent extends Component {
                 <nav>
                     <div className="col-md-3 col-sm-3 col-xs-3">
                         <a href="/home" id="brand-anchor">
-                            {/*<div id="brand"></div>*/}
-                            <img src="./brand/lavasul_blue.png" id="brand-image" alt=""/>
+                            <img src="./brand/lavasul_white.png" id="brand-image" alt=""/>
                         </a>
                     </div>
                     <div className="col-md-9 col-sm-9 col-xs-9 social-icons">
@@ -29,7 +28,6 @@ class HeaderComponent extends Component {
                             <a href="/lavasul"><li>A Lava Sul</li></a>
                             <a href="/home"><li>Home</li></a>
                         </ul>
-                        {/*<img className="social-icon hidden-xs hidden-sm hidden-md" src="./icons/facebook2.svg" alt=""/>*/}
                         <img
                             onClick={HeaderComponent.openMobileMenu}
                             id="mobileMenuIcon"
