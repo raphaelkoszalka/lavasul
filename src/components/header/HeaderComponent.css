@@ -86,15 +86,15 @@
 .mobileMenuOverlay {
     width: 100%;
     height: calc(100% - 80px);
-    position: absolute;
+    position: fixed;
     top: 80px;
     left: 0;
     background: radial-gradient(rgba(42,54,59,0.2), rgba(42,54,59,0.6));
-    z-index: 7000;
+    z-index: 7000 !important;
     display: none;
 }
 .mobileMenuVisible {
-    display: none !important;
+    display: block !important;
 }
 #mobileMenu {
     padding-top: 52px;
