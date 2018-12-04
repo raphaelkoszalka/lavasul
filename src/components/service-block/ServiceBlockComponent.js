@@ -3,44 +3,19 @@ import React, { Component } from 'react';
 
 class ServiceBlockComponent extends Component {
 
-    constructor(props) {
-        super(props);
-        this.props = props;
-        this.state = { props };
-        let position = 0;
-        this.state['props']['services'].forEach((service) => {
-            service.position = position;
-            position++;
-        });
-    }
-
-    static createMarkup(service) {
+    render() {
         return(
-            <div className="col-md-6">
-                <div className="panel">
-                    <div className="panel-heading">
-                        {service['title']}
-                    </div>
-                    <div className="panel-body">
-                        {service['description']}
-                    </div>
+            <div className="row">
+                <div className="col-md-6 service-block">
+                    <h3 className="text-center">Locação de Enxoval</h3>
+                </div>
+                <div className="col-md-6 service-block">
+                    <h3 className="text-center">Higiênização Têxtil</h3>
                 </div>
             </div>
-        )
+        );
     }
 
-    render() {
-        const services = this.state['props']['services'];
-
-        console.log(services);
-
-        const servicesElements = services.map( (service) => {
-            return ServiceBlockComponent.createMarkup(service);
-        });
-
-        return(<div>{ servicesElements }</div>);
-
-    }
 }
 
 export default ServiceBlockComponent;
