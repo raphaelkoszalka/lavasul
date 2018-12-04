@@ -72,7 +72,6 @@ class HomePage extends Component {
             <div id="homePage">
                 <SliderComponent slides={ content['slides'] } />
 
-
                 <section id="institutionalVideo">
                     <div className="col-xs-12 col-sm-6 col-sm-offset-3">
                         <InstitutionalMovieComponent />
