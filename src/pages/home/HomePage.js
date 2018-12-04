@@ -47,7 +47,7 @@ class HomePage extends Component {
                 </section>
 
                 <section id="servicesBlock">
-                    <ServiceBlockComponent />
+                    <ServiceBlockComponent services={ content['service'] } />
                 </section>
 
             </section>

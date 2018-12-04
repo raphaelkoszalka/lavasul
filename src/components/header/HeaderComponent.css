@@ -42,7 +42,6 @@
 }
 .desktopMenu li:hover {
     cursor: pointer;
-    font-weight: bolder;
 }
 #headerDesktopMenu li {
     color: #FFF;
