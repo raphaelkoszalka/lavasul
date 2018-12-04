@@ -3,11 +3,9 @@
         display: none !important;
     }
 }
-
 #navWrapper {
     width: 100%;
 }
-
 #navMenu {
     padding-top: 15px;
     height: 80px;
@@ -17,18 +15,15 @@
     left: 0;
     width: inherit;
 }
-
 .topNav {
     background: rgba(2,2,2,0.5);
 }
-
 .topNavAfterScroll {
     background: rgba(255,255,255,1);
     -webkit-box-shadow: 0 1px 0 0 rgba(2,2,2,0.2);
     -moz-box-shadow: 0 1px 0 0 rgba(2,2,2,0.2);
     box-shadow: 0 1px 0 0 rgba(2,2,2,0.2);
 }
-
 #brand-image {
     height: 52px;
 }
@@ -42,15 +37,13 @@
     text-align: center;
     text-transform: uppercase;
     padding: 15px;
-    font-family: 'Encode Sans Condensed', sans-serif;
-    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
     margin-right: 5px;
 }
 .desktopMenu li:hover {
     cursor: pointer;
     font-weight: bolder;
 }
-
 #headerDesktopMenu li {
     color: #FFF;
 }
@@ -58,7 +51,6 @@
     background: #3444A4;
     color: #FFF !important;
 }
-
 #afterScrollDesktopMenu li {
     color: #333;
 }
@@ -66,15 +58,10 @@
     background: #3444A4;
     color: #FFF !important;
 }
-
 #contactButton {
     background: #3444A4;
     color: #FFF !important;
 }
-
-
-
-
 
 /* mobile */
 .social-icons img {
@@ -91,6 +78,7 @@
     display: inline-block;
     fill: white;
     max-height: 34px;
+    margin-top: 7px;
 }
 .social-icon:hover {
     cursor: pointer;
@@ -118,7 +106,7 @@
     color: white;
     text-transform: uppercase;
     font-size: 2em;
-    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     padding-top: 5px;
 }
 #mobileMenu li:hover {

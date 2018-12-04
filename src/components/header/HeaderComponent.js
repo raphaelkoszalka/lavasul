@@ -13,13 +13,15 @@ class HeaderComponent extends Component {
         return {
             brand: './brand/lavasul_white.png',
             topMenuId: 'headerDesktopMenu',
-            navClass: 'topNav'
+            navClass: 'topNav',
+            menuIcon: './icons/menu_white.svg'
         };
     }
 
     static openMobileMenu() {
         const mobileMenu = document.getElementById('mobileMenuOverlay');
         mobileMenu.classList.toggle('mobileMenuVisible');
+        debugger;
     }
 
     listenToScroll() {
@@ -29,7 +31,8 @@ class HeaderComponent extends Component {
                 this.setState({
                     brand: './brand/lavasul_blue.png',
                     topMenuId: 'afterScrollDesktopMenu',
-                    navClass: 'topNavAfterScroll'
+                    navClass: 'topNavAfterScroll',
+                    menuIcon: './icons/menu_grey.svg'
                 });
                 return;
             }
@@ -43,7 +46,7 @@ class HeaderComponent extends Component {
 
     render() {
 
-        const { topMenuId, brand, navClass } = this.state;
+        const { topMenuId, brand, navClass, menuIcon } = this.state;
 
         return (
             <div id="navWrapper">
@@ -66,10 +69,9 @@ class HeaderComponent extends Component {
                         </ul>
                         <img
                             onClick={HeaderComponent.openMobileMenu}
-                            id="mobileMenuIcon"
                             className="social-icon visible-xs visible-sm visible-md"
-                            src="./icons/menu.svg"
-                            alt=""
+                            src={menuIcon}
+                            alt="Abrir Menu"
                         />
                     </div>
                 </nav>
