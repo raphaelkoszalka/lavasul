@@ -1,11 +1,14 @@
 #homePage {
     overflow-x: hidden;
 }
-
 #sliderBlock {
     clear: both;
 }
-
 #servicesBlock {
     clear: both;
+}
+#institutionalMovieBlock {
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
