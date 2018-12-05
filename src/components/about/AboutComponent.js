@@ -17,7 +17,7 @@ class AboutComponent extends Component {
                         <div className="col-md-6">
                             <div className="panel">
                                 <div className="panel-body">
-                                    <h2>{ company['title'] }</h2>
+                                    <h3>{ company['title'] }</h3>
                                     <hr/>
                                     <span dangerouslySetInnerHTML={{ __html: company['description_home'] }} />
                                 </div>

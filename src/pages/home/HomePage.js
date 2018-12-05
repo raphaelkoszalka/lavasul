@@ -41,16 +41,14 @@ class HomePage extends Component {
             return (<LoaderComponent />);
         }
 
+        console.log(content);
+
         return (
             <section id="homePage">
                 <SliderComponent slides={ content['slides'] } />
-
                 <ServiceBlockComponent services={ content['service'] } />
-
                 <AboutComponent company={ content['company'] } />
-
                 <InstitutionalMovieComponent />
-
                 <EnvironmentalComponent />
             </section>
         )
