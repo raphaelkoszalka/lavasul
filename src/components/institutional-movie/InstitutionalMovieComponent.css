@@ -1,3 +1,13 @@
+#institutionalMovieBlock {
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #FFF;
+    padding: 75px 0 75px 0;
+    -webkit-box-shadow: inset 0px 5px 3px -5px #333, inset 0px -5px 3px -5px #333;
+    box-shadow: inset 0px 5px 3px -5px #333, inset 0px -5px 3px -5px #333;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
