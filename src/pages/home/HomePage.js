@@ -50,6 +50,7 @@ class HomePage extends Component {
                 <AboutComponent company={ content['company'] } />
                 <InstitutionalMovieComponent />
                 <EnvironmentalComponent />
+                <div id="provHeight" />
             </section>
         )
     }

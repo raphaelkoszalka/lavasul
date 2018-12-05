@@ -1,3 +1,14 @@
 #environmentalBlock {
     margin-bottom: 75px;
 }
+#environmentalBlockParallaxe {
+    background-image: url('../../estacao-tratamento.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 450px;
+    -webkit-box-shadow: inset 0px 5px 3px -5px #333, inset 0px -5px 3px -5px #333;
+    box-shadow: inset 0px 5px 3px -5px #333, inset 0px -5px 3px -5px #333;
+}

@@ -20,11 +20,13 @@ class EnvironmentalComponent extends Component {
                                     </p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor pulvinar purus pellentesque placerat. Ut convallis nisi vel nisi tincidunt, vestibulum ultricies magna aliquam.</p>
                                     <button className="btn btn-default">Saiba Mais</button>
+                                    <hr/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div id="environmentalBlockParallaxe" />
             </section>
         )
     }
