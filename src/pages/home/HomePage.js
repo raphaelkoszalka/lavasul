@@ -8,6 +8,7 @@ import InstitutionalMovieComponent from "../../components/institutional-movie/In
 import Scroller from "../../services/ScrollerService";
 import ServiceBlockComponent from "../../components/service-block/ServiceBlockComponent";
 import AboutComponent from "../../components/about/AboutComponent";
+import EnvironmentalComponent from "../../components/environmental/EnvironmentalComponent";
 
 class HomePage extends Component {
 
@@ -40,15 +41,15 @@ class HomePage extends Component {
             return (<LoaderComponent />);
         }
 
+        console.log(content);
+
         return (
             <section id="homePage">
                 <SliderComponent slides={ content['slides'] } />
-
                 <ServiceBlockComponent services={ content['service'] } />
-
                 <AboutComponent company={ content['company'] } />
-
                 <InstitutionalMovieComponent />
+                <EnvironmentalComponent />
             </section>
         )
     }
