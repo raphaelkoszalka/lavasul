@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c746a9a-fb83-445a-81cc-9143683374bc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="4" />
-          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.25" value="3" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="2" />
@@ -80,7 +80,7 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.94" value="1" />
-          <entry key="project.opened" value="47" />
+          <entry key="project.opened" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -88,7 +88,7 @@
           <entry key="css" value="4105" />
           <entry key="dummy" value="8" />
           <entry key="html" value="68" />
-          <entry key="js" value="8060" />
+          <entry key="js" value="8072" />
           <entry key="json" value="36" />
           <entry key="svg" value="89" />
         </counts>
@@ -98,7 +98,7 @@
           <entry key="CSS" value="4105" />
           <entry key="HTML" value="68" />
           <entry key="JSON" value="36" />
-          <entry key="JavaScript" value="8060" />
+          <entry key="JavaScript" value="8072" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="SVG" value="89" />
         </counts>
@@ -113,7 +113,7 @@
           <entry key="HTML" value="7" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="129" />
+          <entry key="JavaScript" value="130" />
           <entry key="RNG Compact" value="3" />
           <entry key="SVG" value="16" />
           <entry key="TypeScript" value="1" />
@@ -124,7 +124,7 @@
           <entry key="css" value="114" />
           <entry key="html" value="7" />
           <entry key="ico" value="1" />
-          <entry key="js" value="129" />
+          <entry key="js" value="130" />
           <entry key="json" value="3" />
           <entry key="png" value="1" />
           <entry key="rnc" value="3" />
@@ -135,68 +135,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/header/HeaderComponent.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="60" column="23" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/HomePage.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/HomePage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -286,8 +225,8 @@
         <option value="$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.css" />
         <option value="$PROJECT_DIR$/src/pages/home/HomePage.js" />
         <option value="$PROJECT_DIR$/src/pages/home/HomePage.css" />
-        <option value="$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.js" />
       </list>
     </option>
   </component>
@@ -365,6 +304,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -376,11 +316,6 @@
             <path>
               <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
               <item name="lavasul" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lavasul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -388,38 +323,17 @@
               <item name="lavasul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lavasul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lavasul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lavasul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544028003909" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544092626312" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -556,11 +470,12 @@
       <workItem from="1543945310738" duration="3877000" />
       <workItem from="1544009572161" duration="844000" />
       <workItem from="1544028349488" duration="3302000" />
+      <workItem from="1544091622880" duration="942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290343000" />
+    <option name="totallyTimeSpent" value="292610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,7 +488,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="25" width="1327" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
@@ -581,7 +495,7 @@
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2373146" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24121779" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -593,7 +507,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.1816694" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.18597063" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49882904" visible="true" weight="0.34910277" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49882904" visible="true" weight="0.11582382" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50117093" side_tool="true" weight="0.2675367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24980484" />
@@ -900,9 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,19 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,8 +861,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="646">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

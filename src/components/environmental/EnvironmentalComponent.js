@@ -10,7 +10,7 @@ class EnvironmentalComponent extends Component {
                     <div className="row">
                         <div className="col-md-12">
                             <h1 className="text-center">
-                                Sócio Ambiental
+                                Compromisso Sócio Ambiental
                             </h1>
                             <div className="row">
                                 <div className="col-md-8 col-md-offset-2 text-center">
