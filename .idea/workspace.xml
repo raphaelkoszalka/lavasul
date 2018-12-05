@@ -87,7 +87,7 @@
         <counts>
           <entry key="css" value="4105" />
           <entry key="dummy" value="8" />
-          <entry key="html" value="62" />
+          <entry key="html" value="68" />
           <entry key="js" value="8060" />
           <entry key="json" value="36" />
           <entry key="svg" value="89" />
@@ -96,7 +96,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="4105" />
-          <entry key="HTML" value="62" />
+          <entry key="HTML" value="68" />
           <entry key="JSON" value="36" />
           <entry key="JavaScript" value="8060" />
           <entry key="PLAIN_TEXT" value="8" />
@@ -151,8 +151,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="190">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -560,7 +560,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289659000" />
+    <option name="totallyTimeSpent" value="290343000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -963,8 +963,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="190">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
