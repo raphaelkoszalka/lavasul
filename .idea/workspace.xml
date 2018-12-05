@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c746a9a-fb83-445a-81cc-9143683374bc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,7 @@
           <entry key="css" value="4105" />
           <entry key="dummy" value="8" />
           <entry key="html" value="68" />
-          <entry key="js" value="8060" />
+          <entry key="js" value="8072" />
           <entry key="json" value="36" />
           <entry key="svg" value="89" />
         </counts>
@@ -98,7 +98,7 @@
           <entry key="CSS" value="4105" />
           <entry key="HTML" value="68" />
           <entry key="JSON" value="36" />
-          <entry key="JavaScript" value="8060" />
+          <entry key="JavaScript" value="8072" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="SVG" value="89" />
         </counts>
@@ -113,7 +113,7 @@
           <entry key="HTML" value="7" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="129" />
+          <entry key="JavaScript" value="130" />
           <entry key="RNG Compact" value="3" />
           <entry key="SVG" value="16" />
           <entry key="TypeScript" value="1" />
@@ -124,7 +124,7 @@
           <entry key="css" value="114" />
           <entry key="html" value="7" />
           <entry key="ico" value="1" />
-          <entry key="js" value="129" />
+          <entry key="js" value="130" />
           <entry key="json" value="3" />
           <entry key="png" value="1" />
           <entry key="rnc" value="3" />
@@ -136,61 +136,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="171">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/header/HeaderComponent.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="60" column="23" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/HomePage.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/HomePage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -286,8 +238,8 @@
         <option value="$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.css" />
         <option value="$PROJECT_DIR$/src/pages/home/HomePage.js" />
         <option value="$PROJECT_DIR$/src/pages/home/HomePage.css" />
-        <option value="$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.js" />
       </list>
     </option>
   </component>
@@ -376,11 +328,6 @@
             <path>
               <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
               <item name="lavasul" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lavasul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -394,7 +341,7 @@
               <item name="lavasul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
+              <item name="environmental" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lavasul" type="b2602c69:ProjectViewProjectNode" />
@@ -560,7 +507,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290343000" />
+    <option name="totallyTimeSpent" value="290536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,7 +528,7 @@
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2373146" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2373146" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -593,7 +540,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.1816694" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.18597063" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49882904" visible="true" weight="0.34910277" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49882904" visible="true" weight="0.34910277" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50117093" side_tool="true" weight="0.2675367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24980484" />
@@ -944,16 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/HeaderComponent.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -963,8 +900,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="646">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/environmental/EnvironmentalComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
