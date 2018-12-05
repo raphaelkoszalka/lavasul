@@ -1,6 +1,6 @@
 .service-block {
     margin-top: 500px;
-    background-color: #59a7c7;
+    background-color: #3444A4;
     padding-top: 50px;
     padding-bottom: 50px;
     border-left: 1px solid #FFF;
@@ -13,6 +13,6 @@
     text-shadow: 1px 1px 1px rgba(2,2,2,0.4);
 }
 .service-block:hover {
-    background-color: #47859f;
+    background-color: #1f2862;
     cursor: pointer;
 }

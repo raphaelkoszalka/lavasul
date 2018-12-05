@@ -13,12 +13,15 @@ class ServiceBlockComponent extends Component {
 
         return(
             <div className="row">
-                <div className="col-md-6 service-block">
-                    <h3 className="text-center">{services[0]['title']}</h3>
-                </div>
-                <div className="col-md-6 service-block">
-                    <h3 className="text-center">{services[1]['title']}</h3>
-                </div>
+                <a href="/servicos">
+                    <div className="col-md-6 service-block">
+
+                        <h3 className="text-center">{services[0]['title']}</h3>
+                    </div>
+                    <div className="col-md-6 service-block">
+                        <h3 className="text-center">{services[1]['title']}</h3>
+                    </div>
+                </a>
             </div>
         );
     }
