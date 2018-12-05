@@ -50,6 +50,10 @@ class HomePage extends Component {
                     <ServiceBlockComponent services={ content['service'] } />
                 </section>
 
+                <section id="institutionalMovieBlock">
+                    <InstitutionalMovieComponent />
+                </section>
+
             </section>
         )
     }
