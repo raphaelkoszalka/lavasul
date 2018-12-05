@@ -12,17 +12,18 @@ class ServiceBlockComponent extends Component {
         const { services } = this.state;
 
         return(
-            <div className="row">
-                <a href="/servicos">
-                    <div className="col-md-6 service-block">
-
-                        <h3 className="text-center">{services[0]['title']}</h3>
-                    </div>
-                    <div className="col-md-6 service-block">
-                        <h3 className="text-center">{services[1]['title']}</h3>
-                    </div>
-                </a>
-            </div>
+            <section id="servicesBlock">
+                <div className="row">
+                    <a href="/servicos">
+                        <div className="col-md-6 service-block">
+                            <h3 className="text-center">{services[0]['title']}</h3>
+                        </div>
+                        <div className="col-md-6 service-block">
+                            <h3 className="text-center">{services[1]['title']}</h3>
+                        </div>
+                    </a>
+                </div>
+            </section>
         );
     }
 

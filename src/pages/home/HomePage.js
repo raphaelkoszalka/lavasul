@@ -7,6 +7,7 @@ import SliderComponent from "../../components/slider/SliderComponent";
 import InstitutionalMovieComponent from "../../components/institutional-movie/InstitutionalMovieComponent";
 import Scroller from "../../services/ScrollerService";
 import ServiceBlockComponent from "../../components/service-block/ServiceBlockComponent";
+import AboutComponent from "../../components/about/AboutComponent";
 
 class HomePage extends Component {
 
@@ -41,19 +42,13 @@ class HomePage extends Component {
 
         return (
             <section id="homePage">
+                <SliderComponent slides={ content['slides'] } />
 
-                <section id="sliderBlock">
-                    <SliderComponent slides={ content['slides'] } />
-                </section>
+                <ServiceBlockComponent services={ content['service'] } />
 
-                <section id="servicesBlock">
-                    <ServiceBlockComponent services={ content['service'] } />
-                </section>
+                <AboutComponent company={ content['company'] } />
 
-                <section id="institutionalMovieBlock">
-                    <InstitutionalMovieComponent />
-                </section>
-
+                <InstitutionalMovieComponent />
             </section>
         )
     }
