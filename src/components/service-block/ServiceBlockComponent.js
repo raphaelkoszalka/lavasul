@@ -5,42 +5,27 @@ class ServiceBlockComponent extends Component {
 
     constructor(props) {
         super(props);
-        this.props = props;
-        this.state = { props };
-        let position = 0;
-        this.state['props']['services'].forEach((service) => {
-            service.position = position;
-            position++;
-        });
-    }
-
-    static createMarkup(service) {
-        return(
-            <div className="col-md-6">
-                <div className="panel">
-                    <div className="panel-heading">
-                        {service['title']}
-                    </div>
-                    <div className="panel-body">
-                        {service['description']}
-                    </div>
-                </div>
-            </div>
-        )
+        this.state = { services: props['services'] }
     }
 
     render() {
-        const services = this.state['props']['services'];
+        const { services } = this.state;
 
-        console.log(services);
+        return(
+            <div className="row">
+                <a href="/servicos">
+                    <div className="col-md-6 service-block">
 
-        const servicesElements = services.map( (service) => {
-            return ServiceBlockComponent.createMarkup(service);
-        });
-
-        return(<div>{ servicesElements }</div>);
-
+                        <h3 className="text-center">{services[0]['title']}</h3>
+                    </div>
+                    <div className="col-md-6 service-block">
+                        <h3 className="text-center">{services[1]['title']}</h3>
+                    </div>
+                </a>
+            </div>
+        );
     }
+
 }
 
 export default ServiceBlockComponent;

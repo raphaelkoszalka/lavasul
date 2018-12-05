@@ -16,14 +16,6 @@ class HomePage extends Component {
     constructor() {
         super();
         this.state = HomePage.defaultState();
-        // TOTALLY NOT PROUD OF THIS
-        // SHOULD BE ONE FUNCTION BUT REACT IS CALLING ON RUN TIME
-        // WHEN ELEMENTS DOESN'T EXIST YET
-        this.navigateToCompanySection = this.navigateToCompanySection.bind(this);
-        this.navigateToMovieSection = this.navigateToMovieSection.bind(this);
-        this.navigateToServicesSection = this.navigateToServicesSection.bind(this);
-        this.navigateToPositiveAmbientPoint = this.navigateToPositiveAmbientPoint.bind(this);
-        this.navigateToRecentBlog = this.navigateToRecentBlog.bind(this);
     }
 
     static defaultState() {
@@ -34,27 +26,6 @@ class HomePage extends Component {
         this.request.get(AppConstants.ENDPOINT_HOME).then( (res) => {
             this.setState({ isLoading: false, content: JSON.parse(res['text']) });
         });
-    }
-
-    // should be just one function, fix this
-    navigateToCompanySection() {
-        this.scroller.scrollToResolver(document.getElementById('companyHomeSection'));
-    }
-    // should be just one function, fix this
-    navigateToMovieSection() {
-        this.scroller.scrollToResolver(document.getElementById('institutionalVideo'));
-    }
-    // should be just one function, fix this
-    navigateToServicesSection() {
-        this.scroller.scrollToResolver(document.getElementById('services'));
-    }
-    // should be just one function, fix this
-    navigateToPositiveAmbientPoint() {
-        this.scroller.scrollToResolver(document.getElementById('positiveAmbientPoint'));
-    }
-    // should be just one function, fix this
-    navigateToRecentBlog() {
-        this.scroller.scrollToResolver(document.getElementById('recentBlog'));
     }
 
     createMarkup() {
@@ -69,25 +40,17 @@ class HomePage extends Component {
         }
 
         return (
-            <div id="homePage">
-                <SliderComponent slides={ content['slides'] } />
+            <section id="homePage">
 
-                <section id="institutionalVideo">
-                    <div className="col-xs-12 col-sm-6 col-sm-offset-3">
-                        <InstitutionalMovieComponent />
-                    </div>
+                <section id="sliderBlock">
+                    <SliderComponent slides={ content['slides'] } />
                 </section>
 
-                <section id="positiveAmbientPoint">
-                    <div className="col-xs-12 col-sm-10 col-sm-offset-1">
-                        <div className="panel">
-                            <div className="panel-body">
-
-                            </div>
-                        </div>
-                    </div>
+                <section id="servicesBlock">
+                    <ServiceBlockComponent services={ content['service'] } />
                 </section>
-            </div>
+
+            </section>
         )
     }
 

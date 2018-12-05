@@ -19,7 +19,7 @@ class SliderComponent extends Component {
     }
 
     static listItemReturn(slide, active, style) {
-        return active === slide.position ? <li className="homeCover" id={ 'slide_' + slide.position } key={ slide.id } style={ style }></li> : null;
+        return active === slide.position ? <li className="homeCover" id={ 'slide_' + slide.position } key={ slide.id } style={ style } /> : null;
     }
 
     static getIntegerBetweenArrayLength(min, max) {
@@ -55,8 +55,6 @@ class SliderComponent extends Component {
     render() {
         const { slides } = this.props;
         const { active } = this.state;
-
-        console.log(typeof slides);
 
         const listItems = slides.map( (slide) => {
             const style = {
