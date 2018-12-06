@@ -47,6 +47,8 @@ class HomePage extends Component {
                 <InstitutionalMovieComponent />
                 <EnvironmentalComponent />
                 <BlogComponent blog={ content['blog'] } />
+                <div className="clearfix" />
+                <hr/>
             </section>
         )
     }

@@ -51,7 +51,9 @@ class BlogComponent extends Component {
                         <h1 className="text-center">Últimas do Blog</h1>
                         <hr/>
                     </div>
-                    {postPanels}
+                    <div className="row">
+                        {postPanels}
+                    </div>
                 </div>
             </section>
         )
