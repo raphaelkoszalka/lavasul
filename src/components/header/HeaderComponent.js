@@ -14,7 +14,7 @@ class HeaderComponent extends Component {
             brand: './brand/lavasul_white.png',
             topMenuId: 'headerDesktopMenu',
             navClass: 'topNav',
-            menuIcon: './icons/menu_white.svg'
+            menuIcon: './menu_white.svg'
         };
     }
 
@@ -32,7 +32,7 @@ class HeaderComponent extends Component {
                     brand: './brand/lavasul_blue.png',
                     topMenuId: 'afterScrollDesktopMenu',
                     navClass: 'topNavAfterScroll',
-                    menuIcon: './icons/menu_grey.svg'
+                    menuIcon: './menu_grey.svg'
                 });
                 return;
             }
