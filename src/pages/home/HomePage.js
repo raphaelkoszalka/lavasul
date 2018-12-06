@@ -10,6 +10,7 @@ import ServiceBlockComponent from "../../components/service-block/ServiceBlockCo
 import AboutComponent from "../../components/about/AboutComponent";
 import EnvironmentalComponent from "../../components/environmental/EnvironmentalComponent";
 import FooterComponent from "../../components/footer/FooterComponent";
+import BlogComponent from "../../components/blog/BlogComponent";
 
 class HomePage extends Component {
 
@@ -31,18 +32,12 @@ class HomePage extends Component {
         });
     }
 
-    createMarkup() {
-        return {__html: this.state['content']['company']['description_home']};
-    };
-
     render() {
         const { isLoading, content } = this.state;
 
         if (isLoading) {
             return (<LoaderComponent />);
         }
-
-        console.log(content);
 
         return (
             <section id="homePage">
@@ -51,7 +46,7 @@ class HomePage extends Component {
                 <AboutComponent company={ content['company'] } />
                 <InstitutionalMovieComponent />
                 <EnvironmentalComponent />
-                <div id="provHeight" />
+                <BlogComponent blog={ content['blog'] } />
             </section>
         )
     }
