@@ -1,0 +1,17 @@
+footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #3444a4;
+    border-top: 2px solid #293683;
+}
+footer img {
+    height: 32px;
+}
+footer p {
+    color: white;
+}
+
+.footer-social-icon {
+    height: 100px;
+    margin-top: 61px;
+}
