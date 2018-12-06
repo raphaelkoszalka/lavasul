@@ -9,6 +9,7 @@ import Scroller from "../../services/ScrollerService";
 import ServiceBlockComponent from "../../components/service-block/ServiceBlockComponent";
 import AboutComponent from "../../components/about/AboutComponent";
 import EnvironmentalComponent from "../../components/environmental/EnvironmentalComponent";
+import FooterComponent from "../../components/footer/FooterComponent";
 
 class HomePage extends Component {
 
