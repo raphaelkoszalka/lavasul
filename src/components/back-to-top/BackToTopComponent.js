@@ -19,7 +19,7 @@ class BackToTopComponent extends Component {
     render() {
         return (
             <div id="backToTop" onClick={this.navigateToTop}>
-                <img src="./icons/arrow-top.svg" alt=""/>
+                <img src="./arrow-top.svg" alt=""/>
             </div>
         )
     }

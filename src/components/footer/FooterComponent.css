@@ -9,9 +9,20 @@ footer img {
 }
 footer p {
     color: white;
+    text-align: left;
 }
 
 .footer-social-icon {
     height: 100px;
     margin-top: 61px;
+}
+
+@media (max-width: 1024px) {
+    footer p {
+        text-align: center;
+    }
+    .footer-social-icon {
+        height: 50px;
+        margin-top: 31px;
+    }
 }
