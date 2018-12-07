@@ -24,7 +24,7 @@ class AboutComponent extends Component {
                             </div>
                         </div>
                         <div className="col-md-6 text-center">
-                            <img src="./lavasul-home.png" alt=""/>
+                            <img src="./teste-lava-sul-sombra-4.png" id="aboutBlockImage" alt="Lava Sul"/>
                         </div>
                     </div>
                 </div>
