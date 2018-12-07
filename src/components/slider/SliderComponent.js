@@ -9,13 +9,15 @@ class SliderComponent extends Component {
 
     constructor(props) {
         super(props);
-        this.props = props;
         let position = 0;
-        this.props['slides'].forEach((slide) => {
+        props['slides'].forEach((slide) => {
             slide.position = position;
             position++;
         });
-        this.state = this.defaultState();
+        this.state = {
+            active: SliderComponent.getIntegerBetweenArrayLength(0, props['slides'].length - 1),
+            slides: props['slides']
+        }
     }
 
     static listItemReturn(slide, active, style) {
@@ -38,10 +40,6 @@ class SliderComponent extends Component {
         this.slideRotation = setInterval(() => this.rotateSlideToNext(), 10000);
     }
 
-    defaultState() {
-        return { active: SliderComponent.getIntegerBetweenArrayLength(0, this.props['slides'].length - 1) }
-    }
-
     rotateSlideToNext() {
         const { active } = this.state;
         const { slides } = this.props;
@@ -53,20 +51,36 @@ class SliderComponent extends Component {
     }
 
     render() {
-        const { slides } = this.props;
-        const { active } = this.state;
+        const { active, slides } = this.state;
+        let activeTitle = '';
+        let activeSubTitle = '';
+        let activeLink = '';
 
         const listItems = slides.map( (slide) => {
+            console.log(slide);
             const style = {
                 backgroundImage: 'url(' + slide['cover']['url'] + ')',
-                backgroundPosition: 'center center'
+                backgroundPosition: 'center center',
+                backgroundAttachment: 'fixed'
             };
+            activeTitle = slide['title'];
+            activeSubTitle = slide['sub_title'];
+            activeLink = slide['post_link'];
             return SliderComponent.listItemReturn(slide, active, style);
         });
 
         return (
             <section id="sliderSection">
-                <div id="slideOverlay" />
+                <div id="callToActionOverlay">
+                    <div className="text-center">
+                        <h1 className="callToActionFont">{activeTitle}</h1>
+                        <h3 id="callToActionSubtitle" className="callToActionFont">{activeSubTitle}</h3>
+                        <div id="callToActionLineDivider" />
+                        <a href={activeLink} target="_blank">
+                            <button id="callToActionButton">Leia Mais</button>
+                        </a>
+                    </div>
+                </div>
                 <div className="slides">
                     <ul>{listItems}</ul>
                 </div>
