@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import LoaderComponent from "../../components/loader/LoaderComponent";
 import {AppConstants} from "../../AppConstants";
 import HttpRequest from "../../services/HttpService";
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
 
 class CompanyPage extends Component {
 
@@ -25,6 +27,15 @@ class CompanyPage extends Component {
         if (isLoading) {
             return (<LoaderComponent />);
         }
+
+        const gallery = [];
+
+        content['gallery'].forEach((img) => {
+            gallery.push({
+                original: img['sizes']['large'],
+                thumbnail: img['sizes']['thumbnail']
+            });
+        });
 
         return (
             <section id="companySection">
@@ -50,6 +61,9 @@ class CompanyPage extends Component {
                                     </h2>
                                     <hr/>
                                     <div dangerouslySetInnerHTML={{__html: content['description_home']}} />
+                                    <div className="col-md-8 col-md-offset-2">
+                                        <ImageGallery items={gallery} />
+                                    </div>
                                 </div>
                             </div>
                         </div>
