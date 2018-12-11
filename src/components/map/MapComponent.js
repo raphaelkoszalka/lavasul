@@ -27,7 +27,6 @@ class MapComponent extends Component {
             zoom: 8,
             styles: AppConstants.MAP_STYLE
         });
-
         cities.forEach((city) => {
             const position = {
                 lat: parseFloat(city['map']['lat']),
