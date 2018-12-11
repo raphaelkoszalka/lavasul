@@ -5,6 +5,7 @@ import {AppConstants} from "../../AppConstants";
 import HttpRequest from "../../services/HttpService";
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
+import MapComponent from "../../components/map/MapComponent";
 
 class CompanyPage extends Component {
 
@@ -30,7 +31,7 @@ class CompanyPage extends Component {
 
         const gallery = [];
 
-        content['gallery'].forEach((img) => {
+        content['gallery'][0]['gallery'].forEach((img) => {
             gallery.push({
                 original: img['sizes']['large'],
                 thumbnail: img['sizes']['thumbnail']
@@ -64,6 +65,11 @@ class CompanyPage extends Component {
                                     <div className="col-md-8 col-md-offset-2">
                                         <ImageGallery items={gallery} />
                                     </div>
+                                    <div className="clearfix" />
+                                    <h1 className="text-center">Cidades Atendidas</h1>
+                                    <hr/>
+                                    <MapComponent cities={content['cities']} />
+                                    <hr/>
                                 </div>
                             </div>
                         </div>
