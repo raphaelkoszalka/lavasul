@@ -14,8 +14,6 @@ class MapComponent extends Component {
 
     renderMap() {
         let markers = [];
-        let url = "http://maps.google.com/mapfiles/ms/icons/";
-
 
         const google = window.google;
         const MarkerClusterer = window.MarkerClusterer;
@@ -109,22 +107,17 @@ class MapComponent extends Component {
             });
 
 
-        for (let i = 0; i < cities.length; i++) {
+        // pass to ECMASCRIPT 6
 
+        cities.forEach((city) => {
             const position = {
-                lat: parseFloat(cities[i]['map']['lat']),
-                lng: parseFloat(cities[i]['map']['lng'])
+                lat: parseFloat(city['map']['lat']),
+                lng: parseFloat(city['map']['lng'])
             };
-
-            url += "blue" + "-dot.png";
-
-            const marker = new google.maps.Marker({
-                position: position,
-                map: map
-            });
+            const marker = new google.maps.Marker({ position: position, map: map });
 
             markers.push(marker);
-        }
+        });
 
         const markerCluster = new MarkerClusterer(map, markers, {
             imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
