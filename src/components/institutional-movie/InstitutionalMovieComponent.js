@@ -12,10 +12,14 @@ class InstitutionalMovieComponent extends Component {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="video-container effect7" >
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/0fWPhRDnb6U"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        allowFullScreen></iframe>
+                                <iframe
+                                    title="LavaSul 20 anos"
+                                    width="560"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/0fWPhRDnb6U"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen />
                             </div>
                         </div>
                     </div>

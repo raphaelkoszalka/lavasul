@@ -62,8 +62,11 @@ class CompanyPage extends Component {
                                     </h2>
                                     <hr/>
                                     <div dangerouslySetInnerHTML={{__html: content['description_home']}} />
+                                    <h1 className="text-center">Nossa Empresa</h1>
+                                    <hr/>
                                     <div className="col-md-8 col-md-offset-2">
                                         <ImageGallery items={gallery} />
+                                        <hr/>
                                     </div>
                                     <div className="clearfix" />
                                     <h1 className="text-center">Cidades Atendidas</h1>

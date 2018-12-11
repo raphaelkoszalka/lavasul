@@ -1,5 +1,6 @@
 import './MapComponent.css';
 import React, { Component } from 'react';
+import {AppConstants} from "../../AppConstants";
 
 class MapComponent extends Component {
 
@@ -14,8 +15,6 @@ class MapComponent extends Component {
 
     renderMap() {
         let markers = [];
-        let url = "http://maps.google.com/mapfiles/ms/icons/";
-
 
         const google = window.google;
         const MarkerClusterer = window.MarkerClusterer;
@@ -23,110 +22,23 @@ class MapComponent extends Component {
         const { cities } = this.state;
         const latLng = { lat: -26.952079, lng: -48.633443 };
         const map = new google.maps.Map(document.getElementById('map'), {
-                center: latLng,
-                scrollwheel: false,
-                zoom: 8,
-                styles: [
-                    {
-                        "featureType": "administrative",
-                        "elementType": "labels.text.fill",
-                        "stylers": [
-                            {
-                                "color": "#444444"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "landscape",
-                        "elementType": "all",
-                        "stylers": [
-                            {
-                                "color": "#f2f2f2"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "poi",
-                        "elementType": "all",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road",
-                        "elementType": "all",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                            },
-                            {
-                                "lightness": 45
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road.highway",
-                        "elementType": "all",
-                        "stylers": [
-                            {
-                                "visibility": "simplified"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road.arterial",
-                        "elementType": "labels.icon",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "transit",
-                        "elementType": "all",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "water",
-                        "elementType": "all",
-                        "stylers": [
-                            {
-                                "color": "#46bcec"
-                            },
-                            {
-                                "visibility": "on"
-                            }
-                        ]
-                    }
-                ]
-            });
+            center: latLng,
+            scrollwheel: false,
+            zoom: 8,
+            styles: AppConstants.MAP_STYLE
+        });
 
-
-        for (let i = 0; i < cities.length; i++) {
-
+        cities.forEach((city) => {
             const position = {
-                lat: parseFloat(cities[i]['map']['lat']),
-                lng: parseFloat(cities[i]['map']['lng'])
+                lat: parseFloat(city['map']['lat']),
+                lng: parseFloat(city['map']['lng'])
             };
-
-            url += "blue" + "-dot.png";
-
-            const marker = new google.maps.Marker({
-                position: position,
-                map: map
-            });
+            const marker = new google.maps.Marker({ position: position, map: map });
 
             markers.push(marker);
-        }
+        });
 
-        const markerCluster = new MarkerClusterer(map, markers, {
+        new MarkerClusterer(map, markers, {
             imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
         });
     }
