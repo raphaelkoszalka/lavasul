@@ -9,7 +9,6 @@ import Scroller from "../../services/ScrollerService";
 import ServiceBlockComponent from "../../components/service-block/ServiceBlockComponent";
 import AboutComponent from "../../components/about/AboutComponent";
 import EnvironmentalComponent from "../../components/environmental/EnvironmentalComponent";
-import FooterComponent from "../../components/footer/FooterComponent";
 import BlogComponent from "../../components/blog/BlogComponent";
 
 class HomePage extends Component {
@@ -19,11 +18,7 @@ class HomePage extends Component {
 
     constructor() {
         super();
-        this.state = HomePage.defaultState();
-    }
-
-    static defaultState() {
-        return { isLoading: true, content: {} }
+        this.state = { isLoading: true, content: {} }
     }
 
     componentWillMount() {
@@ -52,7 +47,6 @@ class HomePage extends Component {
             </section>
         )
     }
-
 }
 
 export default HomePage;
