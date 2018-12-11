@@ -35,7 +35,9 @@ class BlogComponent extends Component {
                             <p>{ post['full_content'].substring(0, 300) }...</p>
                             <hr/>
                             <div className="text-center">
-                                <button className="btn btn-info">Leia Mais</button>
+                                <a href={'/' + post['id']}>
+                                    <button className="btn btn-info">Leia Mais</button>
+                                </a>
                             </div>
                         </div>
                     </div>

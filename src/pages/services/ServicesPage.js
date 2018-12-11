@@ -1,8 +1,8 @@
 import './ServicesPage.css';
 import React, { Component } from 'react';
+import { AppConstants } from "../../AppConstants";
 import LoaderComponent from "../../components/loader/LoaderComponent";
 import HttpRequest from "../../services/HttpService";
-import {AppConstants} from "../../AppConstants";
 
 class ServicesPage extends Component {
 
@@ -10,11 +10,7 @@ class ServicesPage extends Component {
 
     constructor() {
         super();
-        this.state = {}; // CompanyPage.defaultState();
-    }
-
-    static defaultState() {
-        return { isLoading: true }
+        this.state = { isLoading: true };
     }
 
     componentWillMount() {
