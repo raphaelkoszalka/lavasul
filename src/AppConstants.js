@@ -5,6 +5,7 @@ export class AppConstants {
 
   static ENDPOINT_HOME = AppConstants.BASE_URL + AppConstants.API_VERSION + '/home/';
   static ENDPOINT_BLOG = AppConstants.BASE_URL + AppConstants.API_VERSION + '/blog/';
+  static ENDPOINT_BLOG_SINGLE = AppConstants.BASE_URL + AppConstants.API_VERSION + '/blog/single/';
   static ENDPOINT_CITY = AppConstants.BASE_URL + AppConstants.API_VERSION + '/city/';
   static ENDPOINT_CLIENT = AppConstants.BASE_URL + AppConstants.API_VERSION + '/client/';
   static ENDPOINT_COMPANY = AppConstants.BASE_URL + AppConstants.API_VERSION + '/company/';

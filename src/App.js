@@ -13,6 +13,7 @@ import BlogPage from "./pages/blog/BlogPage";
 import ServicesPage from "./pages/services/ServicesPage";
 import PartnersPage from "./pages/partners/PartnersPage";
 import BackToTopComponent from "./components/back-to-top/BackToTopComponent";
+import BlogSinglePage from "./pages/blog-single/BlogSinglePage";
 
 class App extends Component {
     render() {
@@ -26,6 +27,7 @@ class App extends Component {
                         <Route path="/home" exact={true} component={HomePage} />
                         <Route path="/lavasul" exact={true} component={CompanyPage} />
                         <Route path="/blog" exact={true} component={BlogPage} />
+                        <Route path="/:id" component={BlogSinglePage} />
                         <Route path="/servicos" exact={true} component={ServicesPage} />
                         <Route path="/parceiros" exact={true} component={PartnersPage} />
                         <Route path="/trabalhe-conosco" exact={true} component={WorkWithUsPage} />
