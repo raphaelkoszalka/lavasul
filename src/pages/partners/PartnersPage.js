@@ -46,6 +46,8 @@ class CompanyPage extends Component {
                         </div>
                     </div>
                     <PartnerComponent partners={ content } />
+                    <div className="clearfix" />
+                    <hr/>
                 </div>
             </section>
         )
