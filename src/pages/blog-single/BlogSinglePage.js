@@ -12,9 +12,7 @@ class BlogSinglePage extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            isLoading: true
-        };
+        this.state = { isLoading: true };
     }
 
     componentWillMount() {
@@ -58,6 +56,9 @@ class BlogSinglePage extends Component {
                                 {content['title']}
                             </h1>
                             <div id="callToActionLineDivider" />
+                            <h6 className="callToActionFont">
+                                {content['date']}
+                            </h6>
                         </div>
                     </div>
                 </div>
