@@ -6,7 +6,12 @@ class MapComponent extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { cities: props['cities' ]}
+        this.state = {
+            cities: props['cities'],
+            zoom: props['zoom'],
+            lat: props['lat'],
+            lng: props['lng']
+        }
     }
 
     componentDidMount() {
@@ -19,12 +24,12 @@ class MapComponent extends Component {
         const google = window.google;
         const MarkerClusterer = window.MarkerClusterer;
 
-        const { cities } = this.state;
-        const latLng = { lat: -26.952079, lng: -48.633443 };
+        const { cities, zoom, lat, lng } = this.state;
+        const latLng = { lat: lat, lng: lng };
         const map = new google.maps.Map(document.getElementById('map'), {
             center: latLng,
             scrollwheel: false,
-            zoom: 8,
+            zoom: zoom,
             styles: AppConstants.MAP_STYLE
         });
 

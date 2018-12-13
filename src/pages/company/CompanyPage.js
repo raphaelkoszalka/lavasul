@@ -71,7 +71,12 @@ class CompanyPage extends Component {
                                     <div className="clearfix" />
                                     <h1 className="text-center">Cidades Atendidas</h1>
                                     <hr/>
-                                    <MapComponent cities={content['cities']} />
+                                    <MapComponent
+                                        zoom={8}
+                                        cities={content['cities']}
+                                        lat={-26.952079}
+                                        lng={-48.633443}
+                                    />
                                     <hr/>
                                 </div>
                             </div>

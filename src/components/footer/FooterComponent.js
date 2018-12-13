@@ -1,5 +1,6 @@
 import './FooterComponent.css';
 import React, { Component } from 'react';
+import MapComponent from "../map/MapComponent";
 
 class FooterComponent extends Component {
 
@@ -48,6 +49,8 @@ class FooterComponent extends Component {
                                 </a>
                             </div>
                         </div>
+                        <div className="clearfix" />
+                        <hr/>
                     </div>
                 </div>
             </footer>
