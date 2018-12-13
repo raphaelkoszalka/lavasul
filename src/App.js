@@ -27,11 +27,11 @@ class App extends Component {
                         <Route path="/home" exact={true} component={HomePage} />
                         <Route path="/lavasul" exact={true} component={CompanyPage} />
                         <Route path="/blog" exact={true} component={BlogPage} />
-                        <Route path="/:id" component={BlogSinglePage} />
                         <Route path="/servicos" exact={true} component={ServicesPage} />
                         <Route path="/parceiros" exact={true} component={PartnersPage} />
                         <Route path="/trabalhe-conosco" exact={true} component={WorkWithUsPage} />
                         <Route path="/contato" exact={true} component={ContactPage} />
+                        <Route path="/:id" component={BlogSinglePage} />
                     </Switch>
                 </BrowserRouter>
                 <FooterComponent />
