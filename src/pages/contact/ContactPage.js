@@ -46,11 +46,15 @@ class CompanyPage extends Component {
                                                 lng={-48.634114}
                                             />
                                         </div>
+                                        <div className="visible-sm visible-xs clearfix" />
+                                        <hr className="visible-sm visible-xs" />
                                         <div className="col-md-8">
                                             <form action="">
                                                 <div className="col-md-8">
                                                     <input name="nome" type="text" className="form-control" placeholder="Nome Completo" />
                                                 </div>
+                                                <div className="visible-sm visible-xs clearfix" />
+                                                <hr className="visible-sm visible-xs" />
                                                 <div className="col-md-4">
                                                     <input name="email" type="email" className="form-control" placeholder="E-mail" />
                                                 </div>
@@ -64,6 +68,8 @@ class CompanyPage extends Component {
                                                 <div className="col-md-6">
                                                     <input name="cidade" type="cidade" className="form-control" placeholder="Cidade" />
                                                 </div>
+                                                <div className="visible-sm visible-xs clearfix" />
+                                                <hr className="visible-sm visible-xs" />
                                                 <div className="col-md-6">
                                                     <input name="telefone" type="phone" className="form-control" placeholder="Telefone" />
                                                 </div>
