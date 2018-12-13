@@ -1,18 +1,10 @@
 import './ContactPage.css';
 import React, { Component } from 'react';
-import HttpRequest from "../../services/HttpService";
 import MapComponent from "../../components/map/MapComponent";
 
 class CompanyPage extends Component {
 
-    request = new HttpRequest();
-
-    constructor() {
-        super();
-    }
-
     render() {
-
         const map = [{
             map: {
                 lat: -27.192245,
