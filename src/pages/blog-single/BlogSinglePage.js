@@ -41,6 +41,7 @@ class BlogSinglePage extends Component {
             backgroundImage: 'url(' + content['cover'] + ')',
             backgroundSize: 'cover',
             backgroundPosition: 'center center',
+            backgroundAttachment: 'fixed',
             width: '100%',
             height: '500px',
             position: 'relative',
