@@ -49,7 +49,6 @@ class FooterComponent extends Component {
                             </div>
                         </div>
                         <div className="clearfix" />
-                        <hr/>
                     </div>
                 </div>
             </footer>
