@@ -84,13 +84,14 @@
 }
 .mobileMenuOverlay {
     width: 100%;
-    height: calc(100% - 80px);
+    height: 100%;
     position: fixed;
-    top: 80px;
+    top: 0;
     left: 0;
     background: radial-gradient(rgba(42,54,59,0.9), rgba(42,54,59,1));
     z-index: 7000;
     display: none;
+    padding-top: 100px;
 }
 .mobileMenuVisible {
     display: block;
@@ -107,6 +108,7 @@
     font-size: 2em;
     font-family: 'Roboto Condensed', sans-serif;
     padding-top: 5px;
+    margin-left: -30px;
 }
 #mobileMenu li:hover {
     font-weight: 600;
