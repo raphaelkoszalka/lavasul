@@ -2,6 +2,7 @@
     background-image: url('../../cover/cover_5.jpg');
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
     width: 100%;
     height: 500px;
     position: relative;

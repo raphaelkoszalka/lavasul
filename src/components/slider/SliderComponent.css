@@ -55,7 +55,6 @@
     background: #FFF;
     margin: 0 auto;
 }
-
 #callToActionButton {
     background: transparent;
     border: 1px solid #FFF;
@@ -80,7 +79,6 @@
     color: #222;
     cursor: pointer;
 }
-
 @media (min-width: 1024px) {
     #callToActionTitle {
         font-size: 56px;
