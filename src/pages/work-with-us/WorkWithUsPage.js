@@ -48,6 +48,8 @@ class WorkWithUsPage extends Component {
                                             <div className="col-md-8">
                                                 <input name="nome" type="text" className="form-control" placeholder="Nome Completo" />
                                             </div>
+                                            <div className="visible-sm visible-xs clearfix" />
+                                            <hr className="visible-sm visible-xs" />
                                             <div className="col-md-4">
                                                 <input name="email" type="email" className="form-control" placeholder="E-mail" />
                                             </div>
@@ -61,6 +63,8 @@ class WorkWithUsPage extends Component {
                                             <div className="col-md-6">
                                                 <input name="cidade" type="cidade" className="form-control" placeholder="Cidade" />
                                             </div>
+                                            <div className="visible-sm visible-xs clearfix" />
+                                            <hr className="visible-sm visible-xs" />
                                             <div className="col-md-6">
                                                 <input name="telefone" type="phone" className="form-control" placeholder="Telefone" />
                                             </div>
@@ -69,9 +73,13 @@ class WorkWithUsPage extends Component {
                                             <div className="col-md-4">
                                                 <input name="nascimento" type="date" className="form-control" placeholder="Data de Nascimento"/>
                                             </div>
+                                            <div className="visible-sm visible-xs clearfix" />
+                                            <hr className="visible-sm visible-xs" />
                                             <div className="col-md-4">
                                                 <input name="horario" type="text" className="form-control" placeholder="Disponibilidade de horário"/>
                                             </div>
+                                            <div className="visible-sm visible-xs clearfix" />
+                                            <hr className="visible-sm visible-xs" />
                                             <div className="col-md-4">
                                                 <input name="vaga" type="text" className="form-control" placeholder="Vaga pretendida"/>
                                             </div>
