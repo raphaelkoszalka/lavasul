@@ -57,7 +57,6 @@ class SliderComponent extends Component {
         let activeLink = '';
 
         const listItems = slides.map( (slide) => {
-            console.log(slide);
             const style = {
                 backgroundImage: 'url(' + slide['cover']['url'] + ')',
                 backgroundPosition: 'center center',
