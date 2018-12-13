@@ -73,7 +73,7 @@ class SliderComponent extends Component {
             <section id="sliderSection">
                 <div id="callToActionOverlay">
                     <div className="text-center">
-                        <h1 className="callToActionFont">{activeTitle}</h1>
+                        <h1 className="callToActionFont" id="callToActionTitle">{activeTitle}</h1>
                         <h3 id="callToActionSubtitle" className="callToActionFont">{activeSubTitle}</h3>
                         <div id="callToActionLineDivider" />
                         <a href={activeLink} target="_blank">
