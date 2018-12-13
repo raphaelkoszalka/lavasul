@@ -8,15 +8,13 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 class ServicesPage extends Component {
 
-    request = new HttpRequest();
-
     constructor() {
         super();
         this.state = { isLoading: true };
     }
 
     componentWillMount() {
-        this.request.get(AppConstants.ENDPOINT_SERVICE).then( (res) => {
+        HttpRequest.get(AppConstants.ENDPOINT_SERVICE).then( (res) => {
             this.setState({ isLoading: false, content: JSON.parse(res['text']) });
         });
     }

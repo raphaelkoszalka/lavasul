@@ -8,15 +8,13 @@ import BlogComponent from "../../components/blog/BlogComponent";
 
 class CompanyPage extends Component {
 
-    request = new HttpRequest();
-
     constructor() {
         super();
         this.state = { isLoading: true };
     }
 
     componentWillMount() {
-        this.request.get(AppConstants.ENDPOINT_BLOG).then( (res) => {
+        HttpRequest.get(AppConstants.ENDPOINT_BLOG).then( (res) => {
             this.setState({ isLoading: false, content: JSON.parse(res['text']) });
         });
     }

@@ -9,15 +9,13 @@ import MapComponent from "../../components/map/MapComponent";
 
 class CompanyPage extends Component {
 
-    request = new HttpRequest();
-
     constructor() {
         super();
         this.state = { isLoading: true };
     }
 
     componentWillMount() {
-        this.request.get(AppConstants.ENDPOINT_COMPANY).then( (res) => {
+        HttpRequest.get(AppConstants.ENDPOINT_COMPANY).then( (res) => {
             this.setState({ isLoading: false, content: JSON.parse(res['text']) });
         });
     }

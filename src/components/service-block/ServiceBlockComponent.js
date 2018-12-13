@@ -26,7 +26,6 @@ class ServiceBlockComponent extends Component {
             </section>
         );
     }
-
 }
 
 export default ServiceBlockComponent;
