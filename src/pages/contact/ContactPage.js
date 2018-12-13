@@ -1,37 +1,31 @@
 import './ContactPage.css';
 import React, { Component } from 'react';
 import HttpRequest from "../../services/HttpService";
-import {AppConstants} from "../../AppConstants";
-import LoaderComponent from "../../components/loader/LoaderComponent";
 
-class ContactPage extends Component {
+class CompanyPage extends Component {
 
-  request = new HttpRequest();
+    request = new HttpRequest();
 
-  constructor() {
-    super();
-    this.state = ContactPage.defaultState();
-  }
-
-  static defaultState() {
-    return { isLoading: true }
-  }
-
-  componentWillMount() {
-    this.request.get(AppConstants.ENDPOINT_GALLERY).then( (res) => {
-      this.setState({ isLoading: false });
-    });
-  }
-
-  render() {
-    const { isLoading } = this.state;
-
-    if (isLoading) {
-      return (<LoaderComponent />);
+    constructor() {
+        super();
     }
-    return (<h1>content</h1>)
-  }
 
+    render() {
+
+        return (
+            <section id="contactSection">
+                <div id="contactCover">
+                    <div id="contactCoverOverlay">
+                        <img
+                            id="partnerCoverBrandImage"
+                            src="./brand/lavasul_white.png"
+                            alt="LavaSul Higienização Têxtil"
+                        />
+                    </div>
+                </div>
+            </section>
+        )
+    }
 }
 
-export default ContactPage;
+export default CompanyPage;
