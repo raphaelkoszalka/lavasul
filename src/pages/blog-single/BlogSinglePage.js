@@ -8,15 +8,13 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 class BlogSinglePage extends Component {
 
-    request = new HttpRequest();
-
     constructor(props) {
         super(props);
         this.state = { isLoading: true };
     }
 
     componentWillMount() {
-        this.request.get(AppConstants.ENDPOINT_BLOG_SINGLE + this.props.match.params.id).then( (res) => {
+        HttpRequest.get(AppConstants.ENDPOINT_BLOG_SINGLE + this.props.match.params.id).then( (res) => {
             this.setState({ isLoading: false, content: JSON.parse(res['text']) });
         });
     }

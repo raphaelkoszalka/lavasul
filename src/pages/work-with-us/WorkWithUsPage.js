@@ -1,10 +1,7 @@
 import './WorkWithUsPage.css';
 import React, { Component } from 'react';
-import HttpRequest from "../../services/HttpService";
 
 class WorkWithUsPage extends Component {
-
-    request = new HttpRequest();
 
     constructor() {
         super();
@@ -15,9 +12,7 @@ class WorkWithUsPage extends Component {
 
     }
 
-
     render() {
-
         return (
             <section id="companySection">
                 <div id="companyCover">

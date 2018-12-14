@@ -13,7 +13,6 @@ import BlogComponent from "../../components/blog/BlogComponent";
 
 class HomePage extends Component {
 
-    request = new HttpRequest();
     scroller = new Scroller();
 
     constructor() {
@@ -22,7 +21,7 @@ class HomePage extends Component {
     }
 
     componentWillMount() {
-        this.request.get(AppConstants.ENDPOINT_HOME).then( (res) => {
+        HttpRequest.get(AppConstants.ENDPOINT_HOME).then( (res) => {
             this.setState({ isLoading: false, content: JSON.parse(res['text']) });
         });
     }
