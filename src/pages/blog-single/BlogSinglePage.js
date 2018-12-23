@@ -28,12 +28,14 @@ class BlogSinglePage extends Component {
 
         const gallery = [];
 
-        content['gallery'].forEach((img) => {
-            gallery.push({
-                original: img['sizes']['large'],
-                thumbnail: img['sizes']['thumbnail']
+        if (content['gallery']) {
+            content['gallery'].forEach((img) => {
+                gallery.push({
+                    original: img['sizes']['large'],
+                    thumbnail: img['sizes']['thumbnail']
+                });
             });
-        });
+        }
 
         const coverStyle = {
             backgroundImage: 'url(' + content['cover'] + ')',
