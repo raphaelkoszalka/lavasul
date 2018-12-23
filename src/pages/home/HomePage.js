@@ -36,7 +36,7 @@ class HomePage extends Component {
                 <ServiceBlockComponent services={ content['service'] } />
                 <AboutComponent company={ content['company'] } />
                 <InstitutionalMovieComponent />
-                <EnvironmentalComponent />
+                <EnvironmentalComponent environmental={ content['environmental'] } />
                 <BlogComponent blog={ content['blog'] } />
                 <div className="clearfix" />
                 <hr/>

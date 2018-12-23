@@ -69,7 +69,6 @@ class HeaderComponent extends Component {
     render() {
 
         const { topMenuId, brand, navClass, menuIcon } = this.state;
-        console.log(window.location.href.substring(window.location.href.lastIndexOf("/") + 1));
 
         return (
             <div id="navWrapper">
