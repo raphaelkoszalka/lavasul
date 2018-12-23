@@ -5,15 +5,12 @@ import { AppConstants } from "../../AppConstants";
 import LoaderComponent from "../../components/loader/LoaderComponent";
 import SliderComponent from "../../components/slider/SliderComponent";
 import InstitutionalMovieComponent from "../../components/institutional-movie/InstitutionalMovieComponent";
-import Scroller from "../../services/ScrollerService";
 import ServiceBlockComponent from "../../components/service-block/ServiceBlockComponent";
 import AboutComponent from "../../components/about/AboutComponent";
 import EnvironmentalComponent from "../../components/environmental/EnvironmentalComponent";
 import BlogComponent from "../../components/blog/BlogComponent";
 
 class HomePage extends Component {
-
-    scroller = new Scroller();
 
     constructor() {
         super();
