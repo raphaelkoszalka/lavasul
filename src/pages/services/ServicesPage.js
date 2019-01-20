@@ -59,8 +59,8 @@ class ServicesPage extends Component {
                         <div className="col-md-12">
                             <hr/>
                         </div>
-                        <div className="col-md-6">
-                            <div className="panel servicesPanel">
+                        <div className="col-md-12">
+                            <div className="panel">
                                 <div className="panel-body">
                                     <h1 className="text-center">
                                         {content[0]['title']}
@@ -74,8 +74,8 @@ class ServicesPage extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <div className="panel servicesPanel">
+                        <div className="col-md-12">
+                            <div className="panel">
                                 <div className="panel-body">
                                     <h1 className="text-center">
                                         {content[1]['title']}

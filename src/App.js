@@ -18,25 +18,26 @@ import BlogSinglePage from "./pages/blog-single/BlogSinglePage";
 class App extends Component {
     render() {
         return (
-            <section>
-                <HeaderComponent />
-                <BrowserRouter>
+            <BrowserRouter>
+                <section>
+                    <HeaderComponent />
                     <Switch>
-                        {/* @todo: loop through RouteArray from Routes */}
                         <Route path="/" exact={true} component={HomePage} />
                         <Route path="/home" exact={true} component={HomePage} />
                         <Route path="/lavasul" exact={true} component={CompanyPage} />
                         <Route path="/blog" exact={true} component={BlogPage} />
+                        <Route path="/higienizacao-textil" exact={true} component={ServicesPage} />
+                        <Route path="/lavacao-de-enxoval" exact={true} component={ServicesPage} />
                         <Route path="/servicos" exact={true} component={ServicesPage} />
                         <Route path="/parceiros" exact={true} component={PartnersPage} />
                         <Route path="/trabalhe-conosco" exact={true} component={WorkWithUsPage} />
                         <Route path="/contato" exact={true} component={ContactPage} />
                         <Route path="/:id" component={BlogSinglePage} />
                     </Switch>
-                </BrowserRouter>
-                <FooterComponent />
-                <BackToTopComponent />
-            </section>
+                    <FooterComponent />
+                    <BackToTopComponent />
+                </section>
+            </BrowserRouter>
         );
     }
 }
